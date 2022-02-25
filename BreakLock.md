@@ -10,7 +10,7 @@ Breaks the next Psyche Lock.
 
 |Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
-|Break all|Boolean|Whether or not all locks should be broken at once.|-|false|
+|Break All|Boolean|Whether or not all locks should be broken at once.|-|false|
 
 ### Examples:
 #### Example #1: Breaking a Psyche Lock.
@@ -21,7 +21,7 @@ Breaks the next Psyche Lock.
 ```
 
 ### Remarks:
-The `Break all` parameter is only considered in mode 6.
+The `Break All` parameter is only considered in mode 6.
 
 ---
 [Back to overview](index.md)

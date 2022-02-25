@@ -5,11 +5,11 @@
 ---
 Before getting into the Instructions of the **Ace Attorney Casing Tool Script (AACS)**, there is some information and terminology that you ought to know.
 
-1. AACS is very forgiving. If you make typos or pass the wrong parameters, the erroneous lines will simply be skipped and the next instruction will be read rather than crashing the game.
+1. AACS is very forgiving. If you make typos or pass the wrong parameters, the erroneous lines will simply be skipped and the next Instruction will be read rather than crashing the game.
     
-    The exact reasons for an instruction to be ignored are the following:
-    1. The instruction starts with "->" which indicates that this and any subsequent lines until "<-" are comments.
-    2. The instruction cannot be interpeted. Normally caused by a typo or syntax error.
+    The exact reasons for an Instruction to be ignored are the following:
+    1. The Instruction starts with "->" which indicates that this and any subsequent lines until "<-" are comments.
+    2. The Instruction cannot be interpeted. Normally caused by a typo or syntax error.
     3. There are too few parameters, or they cannot be interpreted. Some instructions require parameters, too few and the instruction will be ignored, too many and the additional parameters will be ignored. Occasionally the engine may crash if it fails to interpret a parameter.
 
 2. **Instructions** are the actual commands for the game, and are typed out in the code editor. There are four types of Instructions: **Regular Instructions**, **Container Instructions**, **Hybrid Instructions** and **Branch Instructions**.
@@ -62,7 +62,7 @@ INSTRUCTIONNAME:[PARAMETERS]
 	```
 	This is not a valid Instruction, so all of it is skipped.
 
-	However, were it properly stylized as a comment (aka, encapsulated in -> and <-), it'd be executed like this:
+	However, were it properly stylized as a comment (i.e., encapsulated in -> and <-), it'd be executed like this:
 	```
 1: LoadScene:["Defense"|"Phoenix"|false|false];
 	```

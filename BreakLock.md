@@ -4,7 +4,7 @@
 # BreakLock
 ---
 ### Description
-Breaks the next Psyche Lock.
+Breaks the next Psyche-Lock.
 
 ### Parameters
 
@@ -13,7 +13,7 @@ Breaks the next Psyche Lock.
 |Break all|Boolean|Whether or not all locks should be broken at once.|-|false|
 
 ### Examples:
-#### Example #1: Breaking a Psyche Lock.
+#### Example #1: Breaking a Psyche-Lock.
 ```
 1:  ...
 2:  BreakLock;

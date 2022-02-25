@@ -20,7 +20,7 @@ Displays the health bar in the top right corner.
 3:  ...
 ```
 
-#### Example #1: Display the healt hbar instantly.
+#### Example #1: Display the health bar instantly.
 ```
 1:  ...
 2:  DH:[false];
@@ -28,9 +28,9 @@ Displays the health bar in the top right corner.
 ```
 
 ### Remarks:
-There are two health bars. The first is the regular health bar that is usually displayed during a trial and a second one for the psyche locks. The health bar is on the left side, as opposed to the psyche bar which is on the right side. There is also a special frame ID `GameOver` which you can give to a frame to mark it as a GameOver frame. A GameOver frame will be called if the health drops down to 0. Once the content of the GameOver frame has been executed, the game will automatically end.
+There are two health bars. The first is the regular health bar that is usually displayed during a trial and a second one for the Psyche-Locks. The health bar is on the left side, as opposed to the psyche bar which is on the right side. There is also a special frame ID `GameOver` which you can give to a frame to mark it as a GameOver frame. A GameOver frame will be called if the health drops down to 0. Once the contents of the GameOver frame have been executed, the game will automatically end.
 
-The appearance and position of the healthbar can be modified via themes.
+The appearance and position of the health bar can be modified via themes.
 
 ---
 [Back to overview](index.md)

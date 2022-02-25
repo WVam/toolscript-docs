@@ -10,7 +10,7 @@ Displays a popup animation.
 
 |Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
-|Popup name|String|The name of the popup that should be displayed.|✓|-|
+|Popup Name|String|The name of the popup that should be displayed.|✓|-|
 |Looping|Boolean|Determines whether the popup should loop or not.|✗|false|
 
 ### Examples:

@@ -1,4 +1,4 @@
-**Each regular instruction is documented according to the following template:**
+**Each Regular Instruction is documented according to the following template:**
 
 [Back to overview](index.md)
 
@@ -6,17 +6,17 @@
 # Instruction Name (optional: Abbreviation)
 ---
 ### Description
-General description of the instruction's purpose.
+General description of the purpose of the Instruction.
 
 ### Parameters
 
 |Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
-|Param Name|String|Does a thing.|✓|"Hello World"|
-|Param Name 2|Number|Also does a thing.|✗|5|
-|Param Name 3|Boolean|Does a thing as well.|✗|true|
+|Parameter name|String|Does a thing.|✓|"Hello World"|
+|Parameter name 2|Number|Also does a thing.|✗|5|
+|Parameter name 3|Boolean|Does a thing as well.|✗|true|
 
-> Note: There will never be a parameter with the type `undefined`.
+> Note: There will never be a parameter of type `undefined`.
 
 ### Examples:
 #### Example #X: Example description.

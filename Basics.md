@@ -8,7 +8,7 @@ Before getting into the Instructions of the **Ace Attorney Casing Tool Script (A
 1. AACS is very forgiving. If you make typos or pass the wrong parameters, the erroneous lines will simply be skipped and the next Instruction will be read rather than crashing the game.
     
     The exact reason for an Instruction to be ignored can be any of the following:
-    1. The Instruction starts with "-\>", which indicates that this and any subsequent lines until "\<-" are comments;
+    1. The Instruction starts with "->", which indicates that this and any subsequent lines until "<-" are comments;
     2. The Instruction cannot be interpeted. Normally caused by a typo or syntax error;
     3. There are too few parameters, or they cannot be interpreted. Some instructions require parameters, too few and the instruction will be ignored, too many and the additional parameters will be ignored. Occasionally the engine may crash if it fails to interpret a parameter.
 
@@ -39,16 +39,16 @@ There are 9 important syntax elements in AACS.
 	```
 	It is important to have no whitespaces between the name, colon, and parameters.
 
-3. **The parameter brackets \[\]**  
+3. **The parameter brackets []**  
 	The parameter brackets are used to define the space for parameters in instructions. Single parameters are split using the pipe "\|" symbol.
 
-4. **The Instruction brackets \<\>**  
+4. **The Instruction brackets <>**  
 	The Instruction brackets are used for (and inside) Container Instructions to contain the Regular Instructions. They are also used for statements in Cross Examinations.
 
 5. **The hybrid brackets {}**  
 	Within these brackets are parameters which may be values or Regular Instructions. Separated with "\|", like Regular Instructions.
 
-6. **Comments -\>\<-**  
+6. **Comments -><-**  
 	Comments are used to force the engine to ignore certain segments of script, or to write notes about the script. Technically, you are not required to use this syntax for comments, as the engine will not parse any text it cannot understand as an Instruction; however, not using this syntax can lead to unexpected issues.
     
 	For example, you may have two lines in the script editor:

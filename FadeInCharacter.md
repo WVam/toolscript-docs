@@ -4,13 +4,13 @@
 # FadeInCharacter (FinChar)
 ---
 ### Description
-Fades in a character.
+Fades in the character of a certain position.
 
 ### Parameters
 
 |Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
-|Delay|Number|The amount of miliseconds it takes to fade in the character.|✓|1000|
+|Delay|Number|The amount of milliseconds it takes to fade in the character.|✓|1000|
 |Position|String|The name of the position used in [LoadCharacter](LoadCharacter.md).|✗|"Center"|
 
 ### Examples:
@@ -35,8 +35,8 @@ Fades in a character.
 ```
 
 ### Remarks:
-If you pass an empty parameter as `Duration`, it will default to one second (1000 miliseconds).  
-The minimum is 10 miliseconds. If you use a value lower than 10, it will be considered as 10. The only exception is 0 miliseconds, which are treated as instantly.
+If you pass an empty parameter as `Delay`, it will default to one second (1000 milliseconds).  
+The minimum is 10 milliseconds. If you use a value lower than 10, it will be considered as 10. The only exception is 0 miliseconds, which makes the character appear instantly.
 
 ---
 [Back to overview](index.md)

@@ -16,7 +16,7 @@ Before getting into the Instructions of the **Ace Attorney Casing Tool Script (A
 
     **Regular Instructions** are the common Instructions for actual actions that are displayed on screen like changing scenes, displaying popups, presenting evidence, or showing dialogue.
  
-    **Container Instructions** work a bit differently. They contain multiple Regular Instructions. Container Instructions also have an individual ID assigned to each of them. The reason for that is simple: a Container Instruction has to be explicitly called via a Regular Instruction. A Regular Instruction is executed as soon as the engine reads the line. A Container Instructions won't be executed when it is read. This allows you, for example, to prepare Cross Examinations or Frames that are used more than once at the top of the script file. As of now, there are three Container Instructions, which will be explained later.
+    **Container Instructions** work a bit differently. They contain multiple Regular Instructions. Container Instructions also have an individual ID assigned to each of them. The reason for that is simple: a Container Instruction has to be explicitly called via a Regular Instruction. A Regular Instruction is executed as soon as the engine reads the line. A Container Instructions won't be executed when it is read. This allows you, for example, to prepare Cross-examinations or Frames that are used more than once at the top of the script file. As of now, there are three Container Instructions, which will be explained later.
  
     **Hybrid Instructions** are a mix between Regular Instructions and Container Instructions. In a Hybrid Instruction you can pass parameters like in a Regular Instruction, but a parameter may be not only a value, but also another Regular Instruction. Currently, Hybrid Instructions only appear in Investigations and Mood Matrix sequences.
 
@@ -40,10 +40,10 @@ There are 9 important syntax elements in AACS.
 	It is important to have no whitespaces between the name, colon, and parameters.
 
 3. **The parameter brackets []**  
-	The parameter brackets are used to define the space for parameters in instructions. Single parameters are split using the pipe "\|" symbol.
+	The parameter brackets are used to define the space for parameters in Instructions. Single parameters are split using the pipe "\|" symbol.
 
 4. **The Instruction brackets <>**  
-	The Instruction brackets are used for (and inside) Container Instructions to contain the Regular Instructions. They are also used for statements in Cross Examinations.
+	The Instruction brackets are used for (and inside) Container Instructions to contain the Regular Instructions. They are also used for statements in Cross-examinations.
 
 5. **The hybrid brackets {}**  
 	Within these brackets are parameters which may be values or Regular Instructions. Separated with "\|", like Regular Instructions.
@@ -56,42 +56,42 @@ There are 9 important syntax elements in AACS.
 	1: This line is a comment, but it doesn't use the comment syntax.
 	2: LoadScene:["Defense"|"Phoenix"|false|false];
 	```
-	The result of running these two lines of script is that neither of the lines is executed. The engine does not read whitespace characters like line breaks, and it is interepreted like this:
+	The result of running these two lines of script is that neither line is executed. The engine does not read whitespace characters like line breaks, and this script is interepreted like this:
 	```
 	1: This line is a comment, but it doesn't use the comment syntax.LoadScene:["Defense"|"Phoenix"|false|false];
 	```
 	This is not a valid Instruction, so all of it is skipped.
 
-	However, were it properly stylized as a comment (i.e., encapsulated in -\> and \<-), it'd be executed like this:
+	However, were it properly stylized as a comment (i.e., encapsulated in -> and <-), it would be executed like this:
 	```
 	1: LoadScene:["Defense"|"Phoenix"|false|false];
 	```
-	Comments get removed during compilation so all that's left is the valid instruction.
+	Comments get removed during compilation so only the valid Instruction is left.
 
 7. **Null character**:  
 	AACS uses a dash (-) to represent the absence of a value. If this is used, the default value for a parameter will be used. This can greatly change the behaviour of some Instructions.   
-	An example would be passing null to the name parameter of the [DisplayText](DisplayText.md) Instruction or to specify how many buttons should be shown in a [ButtonChoice](ButtonChoice.md) Instruction.
+	(for instance, passing - to the name parameter of the [DisplayText](DisplayText.md) Instruction hides the name box, and passing - to certain parameters of the [ButtonChoice](ButtonChoice.md) Instruction changes the number of buttons to be displayed).
 
 8. **Variables**  
 	Variables are written like this:
 	```
 	1: #(VARIABLENAME) 
 	```
-	And you can set them for example like this:
+	And you can set them like this:
 	```
 	1: Set #(VARIABLENAME) = EXPRESSION
 	```
-	Keep in mind, that variables behave like Regular Instructions, but have their own syntax. For more information on variables and expressions read the [Variables](Variables.md) chapter.
+	Keep in mind that variables behave like Regular Instructions, but have their own syntax. For more information on variables and expressions read the [Variables](Variables.md) chapter.
 
 9. **Branch Instructions**  
-	Branch Instructions are declared using the following syntax:
+	Branch Instructions are declared using the following syntax (although Else and For deviate from this slightly):
 	```
 	1: INSTRUCTIONNAME #(VARIABLE) = EXPRESSION
 	2: (
 	3:   ->Your AACS here<-
 	4: ); 
 	```
-	Although Else and For deviate from this slightly. For more information read up on the [Branch Instruction](Branch-Instructions.md) chapter.
+	For more information, read up on the [Branch Instructions](Branch-Instructions.md) chapter.
 
 ---
 [Back to overview](index.md)

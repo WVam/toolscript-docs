@@ -4,13 +4,13 @@
 # FinishAllInvestigation
 ---
 ### Description
-Sets all investigations to finished.
+Sets all Investigations to finished.
 
 ### Parameters
-This instruction has no parameters.
+This Instruction has no parameters.
 
 ### Examples:
-#### Example #1: Finishing all currently running investigations.
+#### Example #1: Finishing all currently running Investigations.
 ```
 1:  FinishAllInvestigation;     
 ```

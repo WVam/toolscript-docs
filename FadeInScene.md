@@ -4,13 +4,13 @@
 # FadeInScene  (FinScene)
 ---
 ### Description
-Fades the screen (meaning, character, foreground AND background) back in.
+Fades the scene (i.e. character, foreground AND background) back in.
 
 ### Parameters
 
 |Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
-|Duration|Number|The amount of miliseconds it takes to fade in the scene.|✓|1000|
+|Duration|Number|The amount of milliseconds it takes to fade in the scene.|✓|1000|
 
 ### Examples:
 #### Example #1: Fading in the scene over the span of 2.5 seconds.
@@ -24,8 +24,8 @@ Fades the screen (meaning, character, foreground AND background) back in.
 ```
 
 ### Remarks:
-If you pass an empty parameter as `Duration`, it will default to one second (1000 miliseconds).  
-The minimum is 10 miliseconds. If you use a value lower than 10, it will be considered as 10. The only exception is 0 miliseconds, which are treated as instantly.
+If you pass an empty parameter as `Duration`, it will default to one second (1000 milliseconds).  
+The minimum value for `Duration` is 10. If you use a value lower than 10, it will be considered as 10. The only exception to this is 0, which makes the scene appear instantly.
 
 ---
 [Back to overview](index.md)

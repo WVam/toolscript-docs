@@ -5,19 +5,19 @@
 # FinishCrossExam (FinCE)
 ---
 ### Description
-Finishes a cross-examination manually.
+Finishes a Cross-examination manually.
 
 ### Parameters
-This instruction has no parameters.
+This Instruction has no parameters.
 
 ### Examples:
-#### Example #1: Finishing the current cross-examination.
+#### Example #1: Finishing the current Cross-examination.
 ```
 1:  FinishCrossExam;
 ```
 
 ### Remarks:
-You cannot chose what cross examination to finish, as there should be only one playing. This instruction will end the currently playing cross examination.
+You cannot chose which Cross-examination to finish, as there should be only one playing. This instruction will end the currently playing Cross-examination.
 
 ---
 [Back to overview](index.md)

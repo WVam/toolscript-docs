@@ -4,7 +4,7 @@
 # FadeOutScene  (FoutScene)
 ---
 ### Description
-Fades out the screen (meaning, character, foreground AND background).
+Fades out the scene (i.e. character, foreground AND background).
 
 ### Parameters
 
@@ -30,8 +30,8 @@ Fades out the screen (meaning, character, foreground AND background).
 ```
 
 ### Remarks:
-If you pass an empty parameter as `Duration`, it will default to one second (1000 miliseconds).  
-The minimum is 10 miliseconds. If you use a value lower than 10, it will be considered as 10. The only exception is 0 miliseconds, which are treated as instantly.
+If you pass an empty parameter as `Duration`, it will default to one second (1000 milliseconds).  
+The minimum value for `Duration` is 10. If you use a value lower than 10, it will be considered as 10. The only exception to this is 0, which makes the scene disappear instantly.
 
 ---
 [Back to overview](index.md)

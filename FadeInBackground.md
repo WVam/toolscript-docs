@@ -25,7 +25,7 @@ Fades in the background of the screen.
 
 ### Remarks:
 If you pass an empty parameter as `Duration`, it will default to one second (1000 milliseconds).  
-The minimum is 10 milliseconds. If you use a value lower than 10, it will be considered as 10. The only exception to this is 0 miliseconds, which makes the background appear instantly.
+The minimum is 10 milliseconds. If you use a value lower than 10, it will be considered as 10. The only exception to this is 0 milliseconds, which makes the background appear instantly.
 
 ---
 [Back to overview](index.md)

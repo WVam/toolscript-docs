@@ -2,6 +2,7 @@
 
 ---
 # Basics
+
 ---
 Before getting into the Instructions of the **Ace Attorney Casing Tool Script (AACS)**, there is some information and terminology that you ought to know.
 
@@ -27,6 +28,7 @@ Before getting into the Instructions of the **Ace Attorney Casing Tool Script (A
 	Additionally, you must enter all parameters that come before the one you want to use. This means that, if you want to use the third parameter of an Instruction, you must enter the first and second parameter as well. You can, however, use the null character (-) for them, to indicate you want to use the default value.
 
 ## Syntax
+
 ---
 There are 9 important syntax elements in AACS.
 1. **The semicolon**  

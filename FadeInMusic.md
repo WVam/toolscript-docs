@@ -25,7 +25,7 @@ Fades in the currently playing music.
 
 ### Remarks:
 If you pass an empty parameter as `Duration`, it will default to one second (1000 milliseconds).  
-The minimum value for `Duration` is 10. If you use a value lower than 10, it will be considered as 10. The only exception to this is 0, which instantly turns on the music volume.
+The minimum value for `Duration` is 10. If you use a value lower than 10, it will be considered as 10. The only exception to this is 0, which instantly unmutes the music volume.
 
 ---
 [Back to overview](index.md)

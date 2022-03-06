@@ -7,7 +7,7 @@
 Ends a Mood Matrix sequence manually.
 
 ### Parameters
-This instruction has no parameters.
+This Instruction has no parameters.
 
 ### Examples:
 #### Example #1: Ending the current Mood Matrix sequence.

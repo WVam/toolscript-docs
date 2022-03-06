@@ -13,7 +13,7 @@ Makes a portion of the health bar flash in a yellow (default) color.
 |Amount|Number|How much of the healthbar should flash.|✓|-|
 
 ### Examples:
-#### Example #1: Make a 20-unit portion of the health bar flash.
+#### Example #1: Make a 20 unit portion of the health bar flash.
 ```
 1:  FlashHealth:[20];
 ```

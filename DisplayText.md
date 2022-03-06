@@ -34,11 +34,13 @@ Displays a dialogue box and the text inside it. By default, the text is displaye
 1:  DT:["Apollo"|"#Blue(What?#[130]#Blue My bracelet is reacting.)"|true];
 ```
 
-> The color code `#Blue` has to be repeated after the waiting. Each text code splits a text into a new segment and each segment is automatically set to a white font.
+> The color code `#Blue` has to be repeated after the waiting. Each [text code](#text-codes--escape-codes) splits a text into a new segment and each segment is automatically set to a white font.
 
 ### Remarks:
 **You cannot use the pipe (\|) or double quotes (") character in your speech.**
 
+
+#### Character blip
 There are multiple ways to specify a blip for a character. Here's how AACT determines what blip should actually be played:
 1. If `Silent` is true, no blip will play at all.
 2. If `Is Typewriter` is true, the typewriter blip will be used.
@@ -49,6 +51,7 @@ There are multiple ways to specify a blip for a character. Here's how AACT deter
 7. If there is no custom blip for the current emote, the custom blip of the character itself will be used.
 8. If no custom blip exists, the character's gender will determine whether the default male blip or the default female blip will be used.
 
+#### Text codes & escape codes
 There are 9 text codes you can use inside a speech:  
 - **#Green:** Following text will be displayed in green.  
 - **#Red:** Following text will be displayed in red.  
@@ -57,8 +60,8 @@ There are 9 text codes you can use inside a speech:
 - **#Yellow:** Following text will be displayed in yellow.  
 - **#Purple:** Following text will be displayed in purple.  
 - **#[TIME]:** Replace TIME with a number (no decimal places). The engine will wait that amount in miliseconds before continuing.  
-- **#{SPEED}:** Sets the speed mode of the text. The value determines directly how long the delay between blips will be in miliseconds.  
-- **#(VARIABLE):** Inserts the value of the specified variable at this position. If the variable doesn't exist, an empty string will be inserted.
+- **#{SPEED}:** Replace SPEED with a number (no decimal places). That value determines directly how long the delay between blips will be in miliseconds.  
+- **#(VARIABLE):** Replace VARIABLE with a variable name. Inserts the value of the specified variable at this position. If the variable doesn't exist, an empty string will be inserted.
 
 In addition, there are 4 escape codes:
 - **\NL:** Inserts a newline or line break.

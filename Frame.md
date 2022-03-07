@@ -1,7 +1,7 @@
 [Back to overview](index.md)
 
 ---
-# Frame
+# Frames
 
 ---
 

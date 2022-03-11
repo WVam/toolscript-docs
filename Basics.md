@@ -29,7 +29,6 @@ Before getting into the Instructions of the **Ace Attorney Casing Tool Script (A
 
 ## Syntax
 
----
 There are 9 important syntax elements in AACS.
 1. **The semicolon**  
     Semicolons are used to finish instructions. They are required at the end of almost every instruction, save for a select few. If it is absent, the engine will skip the line and not execute the instruction.

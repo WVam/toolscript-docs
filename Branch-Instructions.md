@@ -2,12 +2,14 @@
 
 ---
 # Branch Instructions
+
 ---
+
 Branch Instructions are the loops and conditionals of AACS. They look completely different from other Instructions syntax-wise. They do not follow normal conventions outlined in the rest of the documentation. The unique syntax for Branch Instructions is defined in this article.
 
 ## If
 
-The **If** Instruction requires an expression which returns a boolean value. If the boolean value is `true`, then the Instructions within the If statement will be executed. **Else If** and **Else** statements can also be defined in addition to the **If** statement in case the initial expression returns `false`, or a value that isn't a boolean.
+The **If** Instruction requires an expression which returns a boolean value. If the boolean value is True, then the Instructions within the If statement will be executed. **Else If** and **Else** statements can also be defined in addition to the **If** statement in case the initial expression returns False, or a value that isn't a boolean.
 
 Syntax:
 ```
@@ -28,7 +30,7 @@ Syntax:
 
 ## While
 
-The While Instruction takes an expression just like the **If** Instruction. It will then continue to execute the Instructions it contains as long as the expression returns `true`. The loop ceases execution if the expression returns `false` or something that isn't a boolean.
+The While Instruction takes an expression just like the **If** Instruction. It will then continue to execute the Instructions it contains as long as the expression returns true. The loop ceases execution if the expression returns False or something that isn't a boolean.
 
 Syntax:
 ```
@@ -53,7 +55,7 @@ Syntax:
 
 **#([COUNTER])** is a variable which will store the current iteration n-1. This means that the counter equals 0 during the first iteration, 1 during the second iteration, 2 during the third, and so on.
 
->All Branch Instructions support nesting, meaning that you can put other Branches, or even Containers, inside the brackets of a Branch Instruction.
+> All Branch Instructions support nesting, meaning that you can put other Branches, or even Containers, inside the brackets of a Branch Instruction.
 
 ---
 [Back to overview](index.md)

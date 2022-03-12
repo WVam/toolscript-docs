@@ -2,7 +2,9 @@
 
 ---
 # FadeOutMusic (FoutM)
+
 ---
+
 ### Description
 Fades out the currently playing music.
 

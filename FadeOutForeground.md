@@ -2,7 +2,9 @@
 
 ---
 # FadeOutForeground (FoutFront)
+
 ---
+
 ### Description
 Fades out the foreground of the screen.
 

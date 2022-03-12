@@ -2,7 +2,9 @@
 
 ---
 # DisplayPopup (DP)
+
 ---
+
 ### Description
 Displays a popup animation.
 

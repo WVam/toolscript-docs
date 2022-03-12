@@ -2,7 +2,9 @@
 
 ---
 # FadeOutBackground (FoutBg)
+
 ---
+
 ### Description
 Fades out the background of the screen.
 

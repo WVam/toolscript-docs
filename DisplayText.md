@@ -2,7 +2,9 @@
 
 ---
 # DisplayText (DT)
+
 ---
+
 ### Description
 Displays a dialogue box and the text inside it. By default, the text is displayed letter by letter.
 

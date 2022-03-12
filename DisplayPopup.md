@@ -27,7 +27,7 @@ Displays a popup animation.
 ```
 
 ### Remarks:
-The popup will not vanish until LoadLocation has been called.
+The popup will not vanish until [LoadLocation](LoadLocation.md) has been called.
 
 ---
 [Back to overview](index.md)

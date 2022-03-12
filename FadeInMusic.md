@@ -2,7 +2,9 @@
 
 ---
 # FadeInMusic (FinM)
+
 ---
+
 ### Description
 Fades in the currently playing music.
 

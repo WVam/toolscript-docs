@@ -2,7 +2,9 @@
 
 ---
 # FadeInCharacter (FinChar)
+
 ---
+
 ### Description
 Fades in a character.
 

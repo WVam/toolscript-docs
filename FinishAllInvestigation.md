@@ -2,7 +2,9 @@
 
 ---
 # FinishAllInvestigation
+
 ---
+
 ### Description
 Sets all Investigations to finished.
 

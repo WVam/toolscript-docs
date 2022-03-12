@@ -2,7 +2,9 @@
 
 ---
 # DecreaseHealth (Damage)
+
 ---
+
 ### Description
 Reduces the amount of health left.
 

@@ -2,7 +2,9 @@
 
 ---
 # FinishMoodMatrix (FinMM)
+
 ---
+
 ### Description
 Ends a Mood Matrix sequence manually.
 

@@ -2,7 +2,9 @@
 
 ---
 # FadeInForeground (FinFront)
+
 ---
+
 ### Description
 Fades in the foreground of the screen.
 

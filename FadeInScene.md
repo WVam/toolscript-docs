@@ -2,7 +2,9 @@
 
 ---
 # FadeInScene  (FinScene)
+
 ---
+
 ### Description
 Fades the scene (i.e. character, foreground AND background) back in.
 

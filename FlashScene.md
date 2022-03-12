@@ -2,7 +2,9 @@
 
 ---
 # FlashScene (Flash)
+
 ---
+
 ### Description
 Makes the screen flash white. 
 

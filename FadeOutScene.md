@@ -2,7 +2,9 @@
 
 ---
 # FadeOutScene  (FoutScene)
+
 ---
+
 ### Description
 Fades out the scene (i.e. character, foreground AND background).
 

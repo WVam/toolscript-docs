@@ -2,7 +2,9 @@
 
 ---
 # FlashHealth (FH)
+
 ---
+
 ### Description
 Makes a portion of the health bar flash in a yellow (default) color.
 

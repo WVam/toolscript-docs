@@ -2,8 +2,10 @@
 
 ---
 # Examining
+
 ---
-Examining is the most complex part of an Investigation sequence. An Examining Container features 4 different Hybrid Instructions: AllExamined, AlreadyExamined, PointDefault and Point.
+
+Examining is the most complex part of an [Investigation](InvestigationC.md) sequence. An Examining Container features 4 different Hybrid Instructions: AllExamined, AlreadyExamined, PointDefault and Point.
 
 ## AllExamined
 This Hybrid Instruction contains one parameter which is a Regular Instruction. It will be executed once the player has examined all the spots, which are defined by a Point Instruction.

@@ -2,12 +2,14 @@
 
 ---
 # Break
+
 ---
+
 ### Description
 Pauses the script and waits until the player has clicked on the progress button.
 
 ### Parameters
-This instruction has no parameters.
+This Instruction has no parameters.
 
 ### Examples:
 #### Example #1: Asking the player to press the progress button to continue after a text has been displayed.

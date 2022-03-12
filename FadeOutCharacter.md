@@ -2,7 +2,9 @@
 
 ---
 # FadeOutCharacter (FoutChar)
+
 ---
+
 ### Description
 Fades out a character.
 

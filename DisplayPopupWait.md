@@ -2,7 +2,9 @@
 
 ---
 # DisplayPopupWait (DPW)
+
 ---
+
 ### Description
 Displays a popup animation and waits until the animation has finished playing.
 

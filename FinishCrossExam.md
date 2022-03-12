@@ -3,7 +3,9 @@
 
 ---
 # FinishCrossExam (FinCE)
+
 ---
+
 ### Description
 Finishes a Cross-examination manually.
 
@@ -17,7 +19,7 @@ This Instruction has no parameters.
 ```
 
 ### Remarks:
-You cannot chose which Cross-examination to finish, as there should be only one playing. This instruction will end the currently playing Cross-examination.
+You cannot chose which Cross-examination to finish, as there should be only one playing. This Instruction will end the currently playing Cross-examination.
 
 ---
 [Back to overview](index.md)

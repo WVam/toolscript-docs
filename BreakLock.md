@@ -2,7 +2,9 @@
 
 ---
 # BreakLock
+
 ---
+
 ### Description
 Breaks the next Psyche-Lock.
 

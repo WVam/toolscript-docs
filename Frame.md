@@ -7,7 +7,7 @@
 
 Now, Regular Instructions are all fine and dandy, and technically you could use just those; however, you might want to use Frames, especially since they are required for some Instructions.
 
-Now what IS a Frame? A Frame is a Container containing one or more Regular Instructions. It is needed for certain Instructions that require a Frame ID (Like the PickEvidence) or  allow the use of a Regular Instruction as a parameter (like some Hybrid Instructions in Investigations). You use a Frame when you want to execute multiple Instructions within a single Instruction. Frames are either invoked automatically by Regular Instructions that require a Frame ID or by executing the [PlayFrame](PlayFrame.md) Instruction.
+Now what IS a Frame? A Frame is a Container containing one or more Regular Instructions. It is needed for certain Instructions that require a Frame ID (like [PickEvidence](PickEvidence.md)) or allow the use of a Regular Instruction as a parameter (like some Hybrid Instructions in [Investigations](InvestigationC.md)). You use a Frame when you want to execute multiple Instructions within a single Instruction. Frames are either invoked automatically by Regular Instructions that require a Frame ID or by executing the [PlayFrame](PlayFrame.md) Instruction.
  
 And now the most important part:
 ## How to declare a frame

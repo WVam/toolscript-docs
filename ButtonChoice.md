@@ -2,7 +2,9 @@
 
 ---
 # ButtonChoice (BC)
+
 ---
+
 ### Description
 Displays up to four buttons on the bottom screen and waits until the player has clicked one.
 

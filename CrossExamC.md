@@ -4,7 +4,7 @@
 # CrossExamination
 
 ---
-The CrossExamination Instruction is obviously used for processing a Cross-examination. The way this Container is defined is similar to the way a Frame is defined:
+The CrossExamination Instruction is obviously used for processing a Cross-examination. The way this Container is defined is similar to the way a [Frame](Frame.md) is defined:
 
 ```
 1:  CrossExamination:[ID|MODE]<
@@ -19,7 +19,7 @@ A Cross-examination, just like Frames, is a Container Instruction, which means i
 
 ## Statements
 
-In a Cross-examination, you only can use Statement Instructions. Like Cross-examinations, Statement Instructions are Container Instructions, hence they use the Container brackets "<" and ">". Also, just like the CrossExamination Instruction, they are also limited. But unlike Statement Instructions, these are limited by the umber of Instructions they can contain. They only allow two plus one optional Regular Instruction. Any more or any less and the script will fail to load. 
+In a Cross-examination, you only can use Statement Instructions. Like Cross-examinations, Statement Instructions are Container Instructions, hence they use the Container brackets "<" and ">". Also, just like the CrossExamination Instruction, they are also limited. But, unlike Statement Instructions, these are limited as to the number of Instructions they can contain. They only allow two plus one optional Regular Instruction. Any more or any less and the script will fail to load. 
 
 A Statement Instruction is built like this:
 
@@ -36,7 +36,7 @@ Now, Instruction 1, 2, and 3 can be any Regular Instruction you want. But it onl
 Instruction 1 and 2 should be a [PlayFrame](PlayFrame.md) Instruction. Instruction 1 will be executed when the Statement is being played (so it should contain a [PlayFrame](PlayFrame.md) Instruction that plays a Frame that displays green text). Instruction 2 will be executed when the player clicks on the "Press" button.  
 Instruction 3 is optional. But if you use it, it **must** be a [PickEvidence](PickEvidence.md) Instruction. Add this to the statement that contains a contradiction to make it objectionable.
 
-> Attention: Currently there can only be one statement marked as "contradiction" per Cross-examination. If you add the PickEvidence to multiple statements, only the first one will be considered.
+> Attention: Currently there can only be one statement marked as "contradiction" per Cross-examination. If you add the [PickEvidence](PickEvidence.md) to multiple statements, only the first one will be considered.
 
 ## Special Statements
 

@@ -17,8 +17,9 @@ Variables can have 4 different types: **String**, **Boolean**, **Number**, and *
 >A string has the second highest priority.
 
 
+<<<<<<< HEAD
 * [](#)**Number**
->Numbers are whole numbers. This means that numbers have the range of a 32-bit integer with decimals not allowed when in a for loop.  
+>Numbers are whole numbers. This means that numbers have the range of a 32-bit integer with decimals not allowed.  
 >A number has the third highest priority.
 
 * [](#)**Boolean**

@@ -64,6 +64,7 @@ There are 9 text codes you can use inside a speech:
 - **#[TIME]:** Replace TIME with a number (no decimal places). The engine will wait that amount in miliseconds before continuing.  
 - **#{SPEED}:** Replace SPEED with a number (no decimal places). That value determines directly how long the delay between blips will be in miliseconds.  
 - **#(VARIABLE):** Replace VARIABLE with a variable name. Inserts the value of the specified variable at this position. If the variable doesn't exist, an empty string will be inserted.
+- **#\<SPACES\>:** Replace SPEED with a number (no decimal places). Inserts the specified amount of spaces at that position. A good compensation for the fact there is no way to automatically center text in AACT.
 
 In addition, there are 4 escape codes:
 - **\NL:** Inserts a newline or line break.

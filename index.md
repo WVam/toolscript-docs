@@ -122,3 +122,10 @@ Below you will find a list of all the Instructions but it's recommended that you
 - [FlashHealth](FlashHealth.md)
 - [PickEvidence](PickEvidence.md)
 - [GameOver](GameOver.md)
+
+### Timer
+- [SetTimer](SetTimer.md)
+- [StopTimer](StopTimer.md)
+
+### Misc
+- [GenerateRandom](GenerateRandom.md)

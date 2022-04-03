@@ -2,7 +2,9 @@
 
 ---
 # HideMoodInterface (HMI)
+
 ---
+
 ### Description
 Hides the GUI of the Mood Matrix sequence, but does not end it.
 

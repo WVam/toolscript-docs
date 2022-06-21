@@ -11,7 +11,7 @@ Before getting into the Instructions of the **Ace Attorney Casing Tool Script (A
     The exact reason for an Instruction to be ignored can be any of the following:
     1. The Instruction starts with "->", which indicates that this and any subsequent lines until "<-" are comments;
     2. The Instruction cannot be interpeted. Normally caused by a typo or syntax error;
-    3. There are too few parameters, or they cannot be interpreted. Some instructions require parameters, too few and the instruction will be ignored, too many and the additional parameters will be ignored. Occasionally the engine may crash if it fails to interpret a parameter.
+    3. There are not enough parameters, or they cannot be interpreted. Some instructions require parameters, too few and the Instruction will be ignored, too many and the additional parameters will be ignored. Occasionally the engine may crash if it fails to interpret a parameter.
 
 2. **Instructions** are the actual commands for the game, and are typed out in the code editor. There are four types of Instructions: **Regular Instructions**, **Container Instructions**, **Hybrid Instructions** and **Branch Instructions**.
 
@@ -31,7 +31,7 @@ Before getting into the Instructions of the **Ace Attorney Casing Tool Script (A
 
 There are 9 important syntax elements in AACS.
 1. **The semicolon**  
-    Semicolons are used to finish instructions. They are required at the end of almost every instruction, save for a select few. If it is absent, the engine will skip the line and not execute the instruction.
+    Semicolons are used to finish Instructions. They are required at the end of almost every Instruction, save for a select few. If it is absent, the engine will skip the line and not execute the Instruction.
     
 2. **The Instruction header**  
 	All Instructions except Branch Instructions follow the same syntax.
@@ -50,28 +50,30 @@ There are 9 important syntax elements in AACS.
 	Within these brackets are parameters which may be values or Regular Instructions. Separated with "\|", like Regular Instructions.
 
 6. **Comments -><-**  
-	Comments are used to force the engine to ignore certain segments of script, or to write notes about the script. Technically, you are not required to use this syntax for comments, as the engine will not parse any text it cannot understand as an Instruction; however, not using this syntax can lead to unexpected issues.
-    
-	For example, you may have two lines in the script editor:
-	```
-	1: This line is a comment, but it doesn't use the comment syntax.
-	2: LoadScene:["Defense"|"Phoenix"|false|false];
-	```
-	The result of running these two lines of script is that neither line is executed. The engine does not read whitespace characters like line breaks, and this script is interepreted like this:
-	```
-	1: This line is a comment, but it doesn't use the comment syntax.LoadScene:["Defense"|"Phoenix"|false|false];
-	```
-	This is not a valid Instruction, so all of it is skipped.
-
-	However, were it properly stylized as a comment (i.e., encapsulated in -> and <-), it would be executed like this:
-	```
-	1: LoadScene:["Defense"|"Phoenix"|false|false];
-	```
-	Comments get removed during compilation so only the valid Instruction is left.
+	Comments are used to force the engine to ignore certain segments of script, or to write notes about the script.  
+	
+	> Technically, you are not required to use this syntax for comments, as the engine will not parse any text it cannot understand as an Instruction; however, not using this syntax can lead to unexpected issues.  
+	>   
+	> For example, you may have two lines in the script editor:
+	> ```
+	> 1: This line is a comment, but it doesn't use the comment syntax.
+	> 2: LoadScene:["Defense"|"Phoenix"|false|false];
+	> ```
+	> The result of running these two lines of script is that neither line is executed. The engine does not read whitespace characters like line breaks, and this script is interepreted like this:
+	> ```
+	> 1: This line is a comment, but it doesn't use the comment syntax.LoadScene:["Defense"|"Phoenix"|false|false];
+	> ```
+	> This is not a valid Instruction, so all of it is skipped.
+	>  
+	> However, were it properly stylized as a comment (i.e., encapsulated in `->` and `<-`), it would be executed like this:
+	> ```
+	> 1: LoadScene:["Defense"|"Phoenix"|false|false];
+	> ```
+	> Comments get removed during compilation so only the valid Instruction is left.
 
 7. **Null character**:  
-	AACS uses a dash (-) to represent the absence of a value. If this is used, the default value for a parameter will be used. This can greatly change the behaviour of some Instructions.   
-	(for instance, passing - to the name parameter of the [DisplayText](DisplayText.md) Instruction hides the name box, and passing - to certain parameters of the [ButtonChoice](ButtonChoice.md) Instruction changes the number of buttons to be displayed).
+	AACS uses a dash (-) to represent the absence of a value. If this is used, the default value for a parameter will be used.  
+	> This can greatly change the behaviour of some Instructions. For instance, passing - to the ```Character name``` parameter of the [DisplayText](DisplayText.md) Instruction hides the name box, and passing - to certain parameters of the [ButtonChoice](ButtonChoice.md) Instruction changes the number of buttons to be displayed.
 
 8. **Variables**  
 	Variables are written like this:

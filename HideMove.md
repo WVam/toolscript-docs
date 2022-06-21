@@ -2,9 +2,11 @@
 
 ---
 # HideMove
+
 ---
+
 ### Description
-Hides a move option in an investigation.
+Hides a move option in an Investigation.
 
 ### Parameters
 

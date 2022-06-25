@@ -12,7 +12,7 @@ Talking instructions are the topics you can talk about with a character. They ar
 
 ### Parameters
 
-|Name|Type|Description|
+|Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
 |DISPLAY TEXT|String|The text that appears in the button of that topic.|
 |FIRST PRESENT|Regular Instruction|Executed the first time this topic is chosen.|

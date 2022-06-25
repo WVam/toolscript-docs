@@ -8,6 +8,7 @@ Investigations are the biggest and most complex feature, so make sure to read th
 Investigations are annoying to set up as there are many parts, but that's also a good thing. It means that there are a lot of interactions you can set up for a good and "close-to-original" experience.
 
 Let's take a look at the basic script that template is created when using autocomplete (CTRL+T).
+
 ![](./Images/Investigation.png)
 
 As you can see, an Investigation consists of 6 Container Instructions: FirstEntrance, SecondEntrance, Talking, Moving, Presenting and Examining.
@@ -39,6 +40,9 @@ And now for the actual interactions in the Investigation, choose from the topics
 - [Talking](Talking.md)
 - [Presenting](Presenting.md)
 - [Examining](Examining.md)
+
+# Remarks
+- Due to Investigations being an extremely complex feature, it may be common to encounter bugs while using them. In case you encounter any bugs, make sure to report them on [our Discord server](https://discord.com/invite/zgRf2aXU)!
 
 ---
 [Back to overview](index.md)

@@ -2,18 +2,20 @@
 
 ---
 # SelectSpot (Spot)
+
 ---
+
 ### Description
-Prompts the player to select a point on the screen, either storing the result in variables or executing frames, depending on where the player clicked.
+Prompts the player to select a point on the screen.
 
 ### Parameters
 
 |Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
-|X Pos|String|The position on the x-axis.|✓|-|
-|Y Pos|Number|The position on the y-axis.|✓|-|
-|Offset|Boolean|The offset around the x and y positions.|✓|-|
-|Correct Frame|Boolean|The ID of the frame that should be played when the spot is clicked.|✓|-|
+|X Pos|String|The position of the correct spot on the x-axis.|✓|-|
+|Y Pos|Number|The position of the correct spot on the y-axis.|✓|-|
+|Offset|Boolean|The offset around the x and y positions (by how much the x and y positions of the clicked spot can differ from `X Pos` and `Y Pos` respectively while still be considered correct).|✓|-|
+|Correct Frame|Boolean|The ID of the frame that should be played when the correct spot is clicked.|✓|-|
 |Wrong Frame|Boolean|The ID of the frame that should be played when the wrong spot is clicked.|✓|-|
 
 ### Examples:

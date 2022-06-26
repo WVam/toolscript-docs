@@ -41,8 +41,5 @@ And now for the actual interactions in the Investigation, choose from the topics
 - [Presenting](Presenting.md)
 - [Examining](Examining.md)
 
-# Remarks
-- Due to Investigations being a very complex feature, it may be common to encounter bugs while using them. In case you encounter any bugs, make sure to report them on [our Discord server](https://discord.com/invite/zgRf2aXU)!
-
 ---
 [Back to overview](index.md)

@@ -1,4 +1,4 @@
-[Back to overview](index.md)
+[Back to overview](index.md) • [Back to Investigations article](InvestigationC.md)
 
 ---
 # Presenting
@@ -13,12 +13,12 @@ A presenting instruction is built like the following scheme:
 
 ### Parameters
 
-|Name|Type|Description|
+|Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
-|TYPE|Record|Can be either "Evidence" or "Profile".|
-|NAME|String|The name of the evidence or the profile that can be presented.|
-|FIRST PRESENT|Regular Instruction|Executed the first time this record is presented.|
-|SECOND PRESENT|Regular Instruction|Every subsequent time this record is presented.|
+|TYPE|Record|Can be either "Evidence" or "Profile".|✓|-|
+|NAME|String|The name of the evidence or the profile that can be presented.|✓|-|
+|FIRST PRESENT|Regular Instruction|Executed the first time this record is presented.|✓|-|
+|SECOND PRESENT|Regular Instruction|Every subsequent time this record is presented.|✓|-|
 
 ### Examples:
 #### Example #1: Present the evidence "Attorney's Badge". The first time it was presented, frame '12' will be executed. Subsequent presentations will execute frame '13'.
@@ -41,4 +41,4 @@ Example:
 ```
 
 ---
-[Back to overview](index.md)
+[Back to overview](index.md) • [Back to Investigations article](InvestigationC.md)

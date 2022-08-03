@@ -11,9 +11,9 @@ Investigations are annoying to set up as there are many parts, but that's also a
 
 Let's take a look at the basic script that template is created when using autocomplete (CTRL+T).
 
-Image|Text
----|---
-![](./Images/Investigation.png)|<pre>Investigation:[1]\<<br>FirstEntrance:\<</br>	</br>\></br>SecondEntrance:\<</br>	</br>\></br>Talking:\<</br>	Topic:{"Topic 1"\|PlayFrame:[1]\|PlayFrame:[1]\|true};</br>	Topic:{"Topic 2"\|PlayFrame:[2]\|PlayFrame:[2]\|true};</br>	Topic:{"Topic 3"\|PlayFrame:[3]\|PlayFrame:[3]\|true};</br>	Topic:{"Topic 4"\|PlayFrame:[4]\|PlayFrame:[4]\|true};</br>\></br>Moving:\<</br>	Move:{"Location 1"\|PlayInvestigation:[1]\|false};</br>	Move:{"Location 2"\|PlayInvestigation:[2]\|false};</br>	Move:{"Location 3"\|PlayInvestigation:[3]\|false};</br>	Move:{"Location 4"\|PlayInvestigation:[4]\|false};</br>\></br>Presenting:\<</br>	Evidence:{"Evidence"\|PlayFrame:[1]\|PlayFrame:[2]};</br>	Profile:{"Profile"\|PlayFrame:[1]\|PlayFrame:[2]};</br>	DefaultEvidence:{PlayFrame:[3]};</br>	DefaultProfile:{PlayFrame:[4]};</br>\></br>Examining:\<</br>	AllExamined:{PlayFrame:[1]};</br>	AlreadyExamined:{PlayFrame:[2]};</br>	PointDefault:{PlayFrame:[3]};</br>	Point:{10\|10\|10\|PlayFrame:[4]\|PlayFrame:[5]};</br>\></br>\>;</br></pre>
+|Image|Text|
+|---|---|
+|![](./Images/Investigation.png)|<pre>Investigation:[1]\<<br>FirstEntrance:\<</br>	</br>\></br>SecondEntrance:\<</br>	</br>\></br>Talking:\<</br>	Topic:{"Topic 1"\|PlayFrame:[1]\|PlayFrame:[1]\|true};</br>	Topic:{"Topic 2"\|PlayFrame:[2]\|PlayFrame:[2]\|true};</br>	Topic:{"Topic 3"\|PlayFrame:[3]\|PlayFrame:[3]\|true};</br>	Topic:{"Topic 4"\|PlayFrame:[4]\|PlayFrame:[4]\|true};</br>\></br>Moving:\<</br>	Move:{"Location 1"\|PlayInvestigation:[1]\|false};</br>	Move:{"Location 2"\|PlayInvestigation:[2]\|false};</br>	Move:{"Location 3"\|PlayInvestigation:[3]\|false};</br>	Move:{"Location 4"\|PlayInvestigation:[4]\|false};</br>\></br>Presenting:\<</br>	Evidence:{"Evidence"\|PlayFrame:[1]\|PlayFrame:[2]};</br>	Profile:{"Profile"\|PlayFrame:[1]\|PlayFrame:[2]};</br>	DefaultEvidence:{PlayFrame:[3]};</br>	DefaultProfile:{PlayFrame:[4]};</br>\></br>Examining:\<</br>	AllExamined:{PlayFrame:[1]};</br>	AlreadyExamined:{PlayFrame:[2]};</br>	PointDefault:{PlayFrame:[3]};</br>	Point:{10\|10\|10\|PlayFrame:[4]\|PlayFrame:[5]};</br>\></br>\>;</br></pre>|
 
 As you can see, an Investigation consists of 6 Container Instructions: FirstEntrance, SecondEntrance, Talking, Moving, Presenting and Examining.
 

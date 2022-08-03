@@ -1,4 +1,4 @@
-[Back to overview](index.md)
+[Back to overview](index.md) • [Back to Investigations article](InvestigationC.md)
 
 ---
 # Examining
@@ -39,13 +39,13 @@ Point:{X|Y|OFFSET|FIRST DISCOVER|SECOND DISCOVER};
 
 ### Parameters
 
-|Name|Type|Description|
-|:---:|:---:|:---:|
-|X|Number|The position on the x-axis.|
-|Y|Number|The position on the y-axis.|
-|OFFSET|Number|The amount of pixels the cursor is allowed to be off from the defined position.|
-|FIRST DISCOVER|Regular Instruction|Gets executed the first time this point is clicked on.|
-|SECOND DISCOVER|Regular Instruction|Gets executed every subsequent time this point is clicked on.|
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|X|Number|The position on the x-axis.|✓|-|
+|Y|Number|The position on the y-axis.|✓|-|
+|OFFSET|Number|The amount of pixels the cursor is allowed to be off from the defined position.|✓|-|
+|FIRST DISCOVER|Regular Instruction|Gets executed the first time this point is clicked on.|✓|-|
+|SECOND DISCOVER|Regular Instruction|Gets executed every subsequent time this point is clicked on.|✓|-|
 
 Example:
 ```
@@ -55,4 +55,4 @@ Example:
 There can be as many Point Instructions as you want.
 
 ---
-[Back to overview](index.md)
+[Back to overview](index.md) • [Back to Investigations article](InvestigationC.md)

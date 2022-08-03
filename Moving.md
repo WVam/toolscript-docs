@@ -1,4 +1,4 @@
-[Back to overview](index.md)
+[Back to overview](index.md) • [Back to Investigations article](InvestigationC.md)
 
 ---
 # Move
@@ -20,7 +20,7 @@ Moving describes the action that would correspond to switching locations in the 
 |HIDDEN|Boolean|Determines whether or not the moving option is hidden by default.|
 
 ### Examples:
-#### Example #1: Setting up the moving option to move to another investigation.
+#### Example #1: Setting up the moving option to move to another Investigation.
 ```
 1: Move:{"Wright Anything Agency"|PlayInvestigation:["Agency"]|false};
 ```
@@ -29,4 +29,4 @@ Moving describes the action that would correspond to switching locations in the 
 You can define as many Move Instructions as you like per Investigation sequence, however only the first 4 Move Instructions that are not hidden will be shown.
 
 ---
-[Back to overview](index.md)
+[Back to overview](index.md) • [Back to Investigations article](InvestigationC.md)

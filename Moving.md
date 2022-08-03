@@ -15,9 +15,9 @@ Moving describes the action that would correspond to switching locations in the 
 
 |Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
-|DISPLAY TEXT|String|The text that will appear on the button in the moving menu.|
-|INSTRUCTION|Regular Instruction|The Regular Instruction that will be executed when clicking on the movement option.|
-|HIDDEN|Boolean|Determines whether or not the moving option is hidden by default.|
+|DISPLAY TEXT|String|The text that will appear on the button in the moving menu.|✓|-|
+|INSTRUCTION|Regular Instruction|The Regular Instruction that will be executed when clicking on the movement option.|✓|-|
+|HIDDEN|Boolean|Determines whether or not the moving option is hidden by default.|✓|-|
 
 ### Examples:
 #### Example #1: Setting up the moving option to move to another Investigation.

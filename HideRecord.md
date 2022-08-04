@@ -2,9 +2,11 @@
 
 ---
 # HideRecord (HR)
+
 ---
+
 ### Description
-Hides a piece of evidence from the court record.
+Hides a piece of evidence from the Court Record.
 
 ### Parameters
 

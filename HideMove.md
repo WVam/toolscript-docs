@@ -16,7 +16,7 @@ Hides a move option in an Investigation.
 |Move Option Index|Number|The 1-based index of the move option.|✓|-|
 
 ### Examples:
-#### Example #1: Hiding move option 1 of Investigation 0.
+#### Example #1: Hiding the first move option of Investigation 0.
 ```
 1: HideMove:[0|1];
 ```

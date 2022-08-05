@@ -4,7 +4,7 @@
 # LoadCharacter (LC)
 ---
 ### Description
-Prepares a character spot/position on the screen and sets a character initially.
+Prepares a character position on the screen and optionally sets a character in that position.
 
 ### Parameters
 
@@ -40,7 +40,7 @@ Prepares a character spot/position on the screen and sets a character initially.
 ```
 
 ### Remarks:
-Characters use X and Y positions as well. However, unlike locations, these are not tied to the camera or the logical parent specified in themes. Instead, character positions are tied to the location. If the location moves via [PanCamera](PanCamera.md), so does the character. The coordinates (0, 0) refer to the top left corner.
+Characters use X and Y positions as well. However, unlike locations, these are not relative to the camera or the logical parent specified in Themes. Instead, character positions are relative to the location. If the location moves via [PanCamera](PanCamera.md), so does the character. The coordinates (0, 0) refer to the top left corner.
 
 Setting a character is advisable but not required. Changing the emote or character can be done with the [SetCharacter](SetCharacter.md) Instruction.
 

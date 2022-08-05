@@ -5,6 +5,8 @@
 
 ---
 
+> **IMPORTANT! Note that some of the information in this article may be outdated. In case you find any contradictions, please raise an Objection! to the developer of the engine in the \#support channel of [his Discord server](https://discord.com/invite/h6ByVmgf).**
+
 The Code Editor (or Editor for short) is a tool designed to aid case makers in editing AACS files (`.aacs`). This section serves as a quickstart guide for the Code Editor.
 
 ## Overview

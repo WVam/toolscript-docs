@@ -7,23 +7,48 @@ The AACS Doscumentation was changed to follow this glossary.
 ## Cross Examinations
 
 Use *Cross Examination* when:
-- referring to the gameplay mechanic (e.g. "Cross Examinations allow the player to find contradictions in a witness' testimony");
-- referring to the gameplay sequence in generic terms (e.g. "During Cross Examinations, a player may present evidence).
+- referring to the gameplay mechanic;
+  > e.g. "Cross Examinations allow the player to find contradictions in a witness' testimony"
+- referring to the gameplay sequence in generic terms.
+  > e.g. "During Cross Examinations, a player may present evidence"
 
-Use *the CrossExamination Instruction* when:
-- referring to the specifics of the Instruction (e.g. "The CrossExamination Instruction has two parameters").
-
-Use *the CrossExamination Container* when:
-- referring to the contents of the the CrossExamination Container (e.g. "The Statements in the CrossExamination Container").
+Use *the CrossExamination Instruction/Container* when:
+- referring to the specifics of the Instruction;
+  > e.g. "The CrossExamination Instruction has two parameters"
+- referring to the contents of the the CrossExamination Container.
+  > e.g. "The Statements in the CrossExamination Container"
 
 Use *cross-examination* when:
-- referring to a player cross-examining a witness (e.g. "The Court Record is an essential tool for players during their cross-examination of a witness");
-- referring to the gameplay sequence in specific terms (e.g. "If a cross-examination is too easy, you should consider adding a penalty for pressing").
+- referring to the act of cross-examining a witness;
+  > e.g. "The Court Record is an essential tool for players during their cross-examination of a witness"
+
+The verb *cross-examine* is used (not \**Cross Examine*).
+
+## Investigations
+
+Use *Investigation* when:
+- referring to the gameplay mechanic;
+  > e.g. "Investigations allow the player to find evidence at the crime scene"
+- referring to the gameplay sequence in generic terms.
+  > e.g. "During Investigations, a player may present evidence"
+
+Use *the Investigation Instruction/Container* when:
+- referring to the specifics of the Instruction;
+  > e.g. "The Investigation Instruction only has one parameter"
+- referring to the contents of the the CrossExamination Container.
+  > e.g. "Moving is used in the Investigation Container"
+
+Use *cross-examination* when:
+- referring to the act of cross-examining a witness;
+  > e.g. "The Court Record is an essential tool for players during their cross-examination of a witness"
+
+The verb *cross-examine* is used (not \**Cross Examine*).
 
 ## Oddly capitalized words
 
 - Branch (Instruction)
 - Container (Instruction)
+- Court Record
 - Frame
 - Hybrid Instruction
 - Instruction

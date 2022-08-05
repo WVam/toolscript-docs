@@ -1,6 +1,6 @@
 # Glossary 
 
-The AACS Doscumentation was changed to follow this glossary.
+The AACS Documentation was changed to follow this glossary, which was extrapolated from indications by the developer as well as use of words throughout the documentation.
 
 ## Cross Examinations
 

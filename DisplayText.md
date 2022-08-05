@@ -44,8 +44,8 @@ Displays a dialogue box and the text inside it. By default, the text is displaye
 
 #### Character blip
 There are multiple ways to specify a blip for a character. Here's how AACT determines what blip should actually be played:
-1. If `Silent` is true, no blip will play at all.
-2. If `Is Typewriter` is true, the typewriter blip will be used.
+1. If `Silent` is set to true, no blip will play at all.
+2. If `Is Typewriter` is set to true, the typewriter blip will be used.
 3. If `Do not talk` is set to true, the name of the character in the name box will be considered.
 4. If the namebox is empty, the character doesn't exist, or `Do not talk` is set to false, the `Position` parameter determines the character that is actually speaking.
 5. If multiple characters are speaking, the blip will be set to the default female if all characters are female. Otherwise it will be set to male.

@@ -5,32 +5,37 @@
 
 ---
 
-> **IMPORTANT! Note that some of the information in this article may be outdated. In case you find any contradictions, please raise an Objection! to the developer of the engine in the \#support channel of [his Discord server](https://discord.com/invite/h6ByVmgf).**
+> **IMPORTANT! Note that some of the information in this article might be outdated. In case you find any contradictions, please raise an Objection! in the \#support channel of the developer's [Discord server](https://discord.com/invite/h6ByVmgf).**
 
 The Code Editor (or Editor for short) is a tool designed to aid case makers in editing AACS files (`.aacs`). This section serves as a quickstart guide for the Code Editor.
 
 ## Overview
 
 This is the main scripting window.
-![](https://www.debygames.com/aacs/drex_3__aacs_code_editor_custom.png)
+
+![](./Images/Editor/MainWindow.png)
+
 In the top left section of the screen, there are two menu entries: "File" and "View"  
 - The "File" menu opens the option for common commands in a text editor. The "Save as Template" option will be discussed later.  
-  ![](https://www.debygames.com/aacs/drex_3__aacs_code_editor_custom_2.png)
+  
+  ![](./Images/Editor/FileMenu.png)
+  
 - The "View" menu gives you three options to adjust certain visual aspects of the Editor.  
-  ![](https://www.debygames.com/aacs/drex_3__aacs_code_editor_custom_3.png)
+  
+  ![](./Images/Editor/ViewMenu.png)
 
 ## Syntax Highlighting
 
 The Editor has syntax highlighting as well and highlights Instructions, punctuation, strings, booleans, and numbers for ease of reading.
-![](https://www.debygames.com/aacs/drex_3__aacs_code_editor_custom_4.png)
-![](https://www.debygames.com/aacs/drex_3__aacs_code_editor_custom_5.png)
+
+![](./Images/Editor/SyntaxHighlighting.png)
 
 ## File Browser
 
-The editor also features a small file browser which is viewable on the right side. Only scripts can be managed here when a project is linked to the editor.
+The Editor also features a small file browser which can be seen on the right side. Only scripts can be managed here when a project is linked to the Editor.
 
-The only viewable elements in the file editor are folders and .aacs files. This enables you to manage multiple script files for a single project while in the code editor. A file can be opened by double-clicking it.
-![](https://www.debygames.com/aacs/drex_3__aacs_code_editor_custom_6.png)
+In the file browser you can only see folders and .aacs files. This allows you to manage multiple script files for a single project while in the Code Editor. A file can be opened by double-clicking it.
+![](./Images/Editor/FileBrowser.png)
 
 Right-clicking anywhere in the file broswer will reveal additional options:
 - "New Folder" creates a new folder for organizing script files;

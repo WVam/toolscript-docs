@@ -1,6 +1,25 @@
-# Glossary 
+# Style guide 
 
-The AACS Documentation was changed to follow this glossary, which was extrapolated from indications by the developer as well as use of words throughout the documentation.
+The AACS Documentation was changed to follow this style guide. The glossary-like parts were extrapolated from indications by the developer as well as use of words throughout the documentation.
+
+## Clarity
+
+To express certain concepts, only certain words will be used.
+
+- **abbr.**: introduces an abbreviation.
+- **can**: introduces something that can be done optionally. Do not use in alternative options one of which MUST be chosen (use "need to either... or...".
+- **e.g.**: introduces an example in brackets.
+- **for example**/**for instance**: introduces an example.
+- **i.e.**: introduces an explaination.
+- **if**: introduces a protasis, a comma separates the apodosis if it comes after the protasis.
+- **in order to**: introduces a final clause.
+- **might**: introduces something that might happen or an uncertain consequence.
+- **must**: introduces a necessary condition for the script to work properly.
+- **need to**: introduces a necessary condition to achieve a specific goal (paired with **in order to**).
+- **should**: introduces a suggestion.
+- **will**: introduces a certain consequence (using 1st-type conditional clauses).
+
+Higlight "not" or the words above when particularly important by writing it in uppercase and bold (**NOT**). For "cannot", use "**CANNOT**".
 
 ## Cross Examinations
 
@@ -38,7 +57,7 @@ Use *the Investigation Instruction/Container* when:
 
 Use *investigation* when:
 - referring to the act of a player investigating;
-  > e.g. "Players may find evidence during their investigation"
+  > e.g. "Players might find evidence during their investigation of the crime scene"
 
 The verb *investigate* is used (not \**Investigate*).
 
@@ -74,10 +93,9 @@ There is no term for to the act of a player using the Mood Matrix on a witness.
 - Regular Instruction
 - Statement
 - Theme
-- Variable
 
 ## Other stuff
 
 - When the name of an Instruction can be confused with something else that is not an Instruction, use "the INSTRUCTION Instruction"
-  - If INSTRUCTION is a Container, you can use "the INSTRUCTION Container"  
-  -
+  - If INSTRUCTION is a Container/Branch, you can use "the INSTRUCTION Container"/"the INSTRUCTION Branch" 
+  - 

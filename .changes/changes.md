@@ -7,7 +7,7 @@ Updated 2022/08/06 WIP
 - Rephrased unclear and oddly constructed sentences.
 - Changed some expressions to match the [Style Guide](./glossary.md).
   - By the way, I created a Style Guide to promote consistency.
-- 
+- Corrected incorrect information
 
 ## AACS-Code-Editor.md
 

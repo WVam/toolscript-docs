@@ -7,7 +7,7 @@
 
 > **IMPORTANT! Note that some of the information in this article might be outdated. In case you find any contradictions, please raise an Objection! in the \#support channel of the developer's [Discord server](https://discord.com/invite/h6ByVmgf).**
 
-The Code Editor (or Editor for short) is a tool designed to aid case makers in editing AACS files (`.aacs`). This section serves as a quickstart guide for the Code Editor.
+The Code Editor (or Editor for short) is a tool designed to aid case makers in editing AACS files (`.aacs`). This article serves as a quickstart guide for the Code Editor.
 
 ## Overview
 
@@ -40,13 +40,13 @@ In the file browser you can only see folders and .aacs files. This allows you to
 Left-clicking and then right-clicking on an item will reveal additional options, depending on the selected item.
 |Option|Description|Chapters|Folders|Script files|
 |:---:|:---:|:----:|:----:|:---:|
-|New Script|Creates a new script in the selected chapter/folder|✓|✓|✗|
-|New Folder|Creates a new folder in the selected chapter/folder|✓|✓|✗|
 |New Chapter|Creates a new chapter|✓|✗|✗|
+|New Folder|Creates a new folder in the selected chapter/folder|✓|✓|✗|
+|New Script|Creates a new script in the selected chapter/folder|✓|✓|✗|
 |Delete|Deletes the selected item|✓|✓|✓|
 |Open Folder|Opens the folder/chapter in File Explorer|✓|✓|✗|
 
-> Note: At the moment, some of these options (New Chapter, Open Folder) do not work correctly and only show up when clicking on the empty space below the items in the file browser
+> Note: At the moment (as of 2022/08/06), some of these options (New Chapter, Open Folder) do not work correctly and only show up when clicking on the empty space below the items in the file browser
 
 ## Templates
 ![](./Images/Editor/Templates.png)
@@ -67,7 +67,7 @@ The second option, labeled "Quick Test", executes a highlighted section of Instr
 
 In order to use Quick Test, you must have a linked project so that the Editor is able to find the necessary assets. In order to link a project, you must open a project (.aact) from the Asset Maker. You can do that from a button at the top of the Asset Maker window.
 
-![](./Images/Editor/AMOpenCodeEditor)
+![](./Images/Editor/AMOpenCodeEditor.png)
 
 This will open the Code Editor and link a project to it. The actual use of the editor won't change, it will just enable the Quick Test function.
 If a project is linked, the name of it will be present in the title of the window in the form of a message saying "(Linked to PROJECT)".
@@ -84,21 +84,21 @@ Code Completion allows you to make the engine automatically complete an Instruct
 ![](./Images/Editor/CodeCompletion.png)
 After pressing this keybind, a list of Instructions will appear. If you start typing the desired Instruction, the list of suggested Instructions will be narrowed down based on your input. Certain Instructions may appear twice if they have a shortened version (e.g. DisplayText).
 ![](./Images/Editor/CodeCompletionDuplicates.png)
-Once the correct instruction is highlighted, hit enter to complete the instruction in the script.
+Once the correct Instruction is highlighted, hit enter to complete the Instruction in the script.
 
 ## Pinpointer
 
 Certain Instructions, such as SelectSpot, require x and y coordinates on the game screen to function as intended. The pinpointer is a tool to allow you to easily find and record these coordinates.
-![](./Images/Editor/Pinpointer)
+![](./Images/Editor/Pinpointer.png)
 Moving your cursor over the black area in the pinpointer will display the X and Y coordinates of it as if it were on the game screen. Left-clicking the screen will place a SelectSpot Instruction in the script with the cursor's coordinates already inputted as parameters. Right-clicking will allow you to change the background of the pinpointer.
 
 ## Script Inclusion & Compiler Instructions
 
-Compiler Instructions are a special type of instruction that do not affect gameplay, but are integral to creating games with AACT.
+Compiler Instructions are a special type of Instruction. They do not affect gameplay, but are integral to creating games with AACT.
 
 Currently, only one Compiler Instruction has been added: the @Include Instruction. It is not necessary to know the technical details of what the compiler does with this Instruction, but it's useful to know how to use it.
 
-This script contains the @Include compiler instruction:  
+This script contains the @Include Compiler Instruction:  
 ```
 1: DisplayText:["Trucy"|"And now, for the magical music show!"];
 2: Break;
@@ -106,7 +106,7 @@ This script contains the @Include compiler instruction:
 4: DisplayText:["Trucy"|"I hope you enjoyed it!"];
 5: Break;
 ```
-Compiler Instructions, unlike all other types of Instruction, always start with an @ and **do NOT end with a semicolon (;)**. When an @Include Instruction is encountered, the designated script file is loaded and executed at that position. In this case, "MagicalMusicShow.aacs" would be loaded and executed. This Instruction can be placed anywhere in the script, and also works while debugging.
+Compiler Instructions, unlike all other types of Instruction, always start with an @ and **do NOT end with a semicolon** `;`. When an @Include Instruction is encountered, the designated script file is loaded and executed at that position. In this case, "MagicalMusicShow.aacs" would be loaded and executed. This Instruction can be placed anywhere in the script, and also works while debugging.
 
 The benefit of this is that the 2GB limit of a single script file can be circumvented by loading other scripts. This Instruction is also the reason why there must always be a Prelude.aacs file in your project. Prelude.aacs is the first script that will be executed by the compiler, and it is automatically added when a new project file is created. It must **NOT** be deleted. If it is not present, the game will not compile.
 

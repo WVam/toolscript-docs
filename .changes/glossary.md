@@ -1,8 +1,14 @@
 # Style guide 
 
-The AACS Documentation was changed to follow this style guide. The glossary-like parts were extrapolated from indications by the developer as well as use of words throughout the documentation.
+The AACS Documentation was changed to follow this style guide. Most glossary-like parts were extrapolated from indications by the developer as well as use of words throughout the documentation.
 
-## Clarity
+## Structure-related terminology
+Here, this documentation's established terminology has been changed to match more widespread terminology.
+- What is contained in a single page is called an **article**.
+- What is contained between two h2 headers is called a **section*.
+- What is contained between a header of level h3 or lower and the next header of the same or higher level is called a **subsection**.
+
+## Command words et similia
 
 To express certain concepts, only certain words will be used.
 

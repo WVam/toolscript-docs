@@ -97,6 +97,7 @@ There is no term for to the act of a player using the Mood Matrix on a witness. 
 - Psyche Lock
 - Regular Instruction
 - Statement
+- Template
 - Theme
 
 ## Other stuff

@@ -15,12 +15,13 @@ This is the main scripting window.
 
 ![](./Images/Editor/MainWindow.png)
 
-In the top left section of the screen, there are two menu entries: "File" and "View"  
+In the top left section of the screen, there are two menu entries: "File" and "View"  .
 - The "File" menu opens the option for common commands in a text editor. The "Save as Template" option will be discussed later.  
   
   ![](./Images/Editor/FileMenu.png)
   
-- The "View" menu gives you three options to adjust certain visual aspects of the Editor.  
+- The "View" menu gives you two options to adjust certain visual aspects of the Editor. It also contains the "Find" and "Find and replace" tools (which you can also access by pressing Ctrl+F).
+  > Note: The "Indent" option is outdated.  
   
   ![](./Images/Editor/ViewMenu.png)
 
@@ -68,13 +69,13 @@ The toolbar next to the "View" menu entry contains two options.
 
 The first option is for commenting out a highlighted section of the script. This currently only works one way, so you can comment out a highlighted section, but in order to reverse this you must manually remove the comment tags (`->` `<-`). Sections that are commented out are ignored when compiling and Quick Testing.
 
-The second option, labeled "Quick Test", executes a highlighted section of Instructions in the script. If you don't highlight anything and simply press "Quick Test", then the whole script will be run.
+The second option, labeled "Quick Test", executes a highlighted section of Instructions in the script. If you don't highlight anything and simply press "Quick Test", then the whole script will be run. You can also start a Quick Test by pressing the F5 key.
 
 In order to use Quick Test, you must have a linked project so that the Editor is able to find the necessary assets. In order to link a project, you must open a project (.aact) from the Asset Maker. You can do that from a button at the top of the Asset Maker window.
 
 ![](./Images/Editor/AMOpenCodeEditor.png)
 
-This will open the Code Editor and link a project to it. The actual use of the editor won't change, it will just enable the Quick Test function.
+This will open the Code Editor and link a project to it. This will not change how the Editor works, it will just enable the Quick Test function.
 If a project is linked, the name of it will be present in the title of the window in the form of a message saying "(Linked to PROJECT)".
 
 ![](./Images/Editor/Linked.png)

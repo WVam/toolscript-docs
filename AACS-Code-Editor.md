@@ -37,26 +37,31 @@ The Editor also features a small file browser which can be seen on the right sid
 In the file browser you can only see folders and .aacs files. This allows you to manage multiple script files for a single project while in the Code Editor. A file can be opened by double-clicking it.
 ![](./Images/Editor/FileBrowser.png)
 
-Right-clicking anywhere in the file broswer will reveal additional options:
-- "New Folder" creates a new folder for organizing script files;
-- "New Script" creates a new script file that can contain Instructions;
-- "Delete" deletes a script file or folder;
-- "Open folder" opens the folder where the scripts are stored for the project;
-- "Refresh" refreshes the file browser to reflect any changes made externally to the script folder.
+Clicking and then right-clicking on an item will reveal additional options, depending on the selected item.
+|Option|Description|Chapters|Folders|Script files|
+|:---:|:---:|:----:|:----:|:---:|
+|New Script|Creates a new script in the selected chapter/folder|✓|✓|✗|
+|New Folder|Creates a new folder in the selected chapter/folder|✓|✓|✗|
+|New Chapter|Creates a new chapter|✓|✗|✗|
+|Delete|Deletes the selected item|✓|✓|✓|
+|Open Folder|Opens the folder/chapter in File Explorer|✓|✓|✗|
+
+> Note: At the moment, some of these options (New Chapter, Open Folder) do not work correctly and only show up when clicking on the empty space below the items in the file browser
 
 ## Templates
-![](https://www.debygames.com/aacs/drex_3__aacs_code_editor_custom_8.png)
-Templates are for groups of instructions that you intend to use multiple times. These templates are normal .aacs files.
-You can create them via the editor and then click on "Save as Template" in the "File" menu. The script will be saved in a "Templates" folder in the same place as the code editor.
+![](./Images/Editor/Templates.png)
+Templates are snippets of script that you want to use multiple times. They are stored as normal .aacs files.
 
-Templates can be selected from the dropdown menu on the bottom right by clicking "Use Template". You can also add a placeholder called "%VALUE%" to the script.
+In order to add a Template, you must create it via the Editor and then click on "Save as Template" in the "File" menu. The script will be saved in a "Templates" subfolder of the folder in which the Code Editor is located.
 
-This placeholder is case-sensitive so it only works if it's written all in capital. Use these for dynamic values that might change per use of the script. Any value can be entered in the input field labeled "Value", and after hitting the "Use Template" button every placeholder is replaced by the specified value.
+In order to insert a Template in your script, you must go to the "Template" tab of the side menu on the right side of the Editor. Then you must select the Template you want to insert and click on "Use Template".
+
+You can also add a placeholder, `%VALUE%`, to templates. This placeholder is case-sensitive, which it only works if it's written entirely in uppercase. You can use it for dynamic values that might change depending on the context in which you are using the Template. Any value can be entered in the input field labeled "Value", and after hitting the "Use Template" button every placeholder is replaced by the specified value.
 
 ## Toolbar
 The toolbar next to the "View" menu entry contains two options.
-![](https://www.debygames.com/aacs/drex_3__aacs_code_editor_custom_9.png)
-The first option is for commenting out a highlighted section of the script. This currently only works one way, so you can comment out a highlighted section, but in order to reverse this you must manually remove the comment tags. Sections that are commented out are ignored when compiling and Quick Testing.
+![](./Images/Editor/Toolbar.png)
+The first option is for commenting out a highlighted section of the script. This currently only works one way, so you can comment out a highlighted section, but in order to reverse this you must manually remove the comment tags (`->` `<-`). Sections that are commented out are ignored when compiling and Quick Testing.
 
 The second option, labeled "Quick Test", executes a highlighted section of Instructions in the script. If you don't highlight anything and simply press "Quick Test", then the whole script will be run.
 
@@ -64,7 +69,7 @@ In order to use Quick Test, you must have a linked project so that the Editor is
 ![](./Images/Editor/AMOpenCodeEditor)
 This will open the code editor and link a project to it. The actual use of the editor won't change, it will just enable the Quick Test function.
 If a project is linked, the name of it will be present in the title of the window in the form of a message saying "(Linked to PROJECT)".
-![](https://www.debygames.com/aacs/drex_3__aacs_code_editor_custom_11.png)
+![](./Images/Editor/Linked.png)
 
 ## Compiling the game
 >

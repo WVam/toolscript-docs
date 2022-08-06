@@ -35,6 +35,7 @@ The Editor has syntax highlighting as well and highlights Instructions, punctuat
 The Editor also features a small file browser which can be seen on the right side. Only scripts can be managed here when a project is linked to the Editor.
 
 In the file browser you can only see folders and .aacs files. This allows you to manage multiple script files for a single project while in the Code Editor. A file can be opened by double-clicking it.
+
 ![](./Images/Editor/FileBrowser.png)
 
 Left-clicking and then right-clicking on an item will reveal additional options, depending on the selected item.
@@ -49,7 +50,9 @@ Left-clicking and then right-clicking on an item will reveal additional options,
 > Note: At the moment (as of 2022/08/06), some of these options (New Chapter, Open Folder) do not work correctly and only show up when clicking on the empty space below the items in the file browser
 
 ## Templates
+
 ![](./Images/Editor/Templates.png)
+
 Templates are snippets of script that you want to use multiple times. They are stored as normal .aacs files.
 
 In order to add a Template, you must create it via the Editor and then click on "Save as Template" in the "File" menu. The script will be saved in a `Templates` subfolder of the folder in which the Code Editor is located.
@@ -60,7 +63,9 @@ You can also add a placeholder, `%VALUE%`, to templates. This placeholder is cas
 
 ## Toolbar
 The toolbar next to the "View" menu entry contains two options.
+
 ![](./Images/Editor/Toolbar.png)
+
 The first option is for commenting out a highlighted section of the script. This currently only works one way, so you can comment out a highlighted section, but in order to reverse this you must manually remove the comment tags (`->` `<-`). Sections that are commented out are ignored when compiling and Quick Testing.
 
 The second option, labeled "Quick Test", executes a highlighted section of Instructions in the script. If you don't highlight anything and simply press "Quick Test", then the whole script will be run.
@@ -81,15 +86,21 @@ The "Compile Game" button next to the toolbar will compile a releaseable version
 ## Code Completion
 
 Code Completion allows you to make the engine automatically complete an Instruction you were typing. This feature can be accessed by pressing CTRL+T.
+
 ![](./Images/Editor/CodeCompletion.png)
+
 After pressing this keybind, a list of Instructions will appear. If you start typing the desired Instruction, the list of suggested Instructions will be narrowed down based on your input. Certain Instructions may appear twice if they have a shortened version (e.g. DisplayText).
+
 ![](./Images/Editor/CodeCompletionDuplicates.png)
+
 Once the correct Instruction is highlighted, hit enter to complete the Instruction in the script.
 
 ## Pinpointer
 
 Certain Instructions, such as SelectSpot, require x and y coordinates on the game screen to function as intended. The pinpointer is a tool to allow you to easily find and record these coordinates.
+
 ![](./Images/Editor/Pinpointer.png)
+
 Moving your cursor over the black area in the pinpointer will display the X and Y coordinates of it as if it were on the game screen. Left-clicking the screen will place a SelectSpot Instruction in the script with the cursor's coordinates already inputted as parameters. Right-clicking will allow you to change the background of the pinpointer.
 
 ## Script Inclusion & Compiler Instructions

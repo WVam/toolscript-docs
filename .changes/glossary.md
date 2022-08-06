@@ -20,8 +20,7 @@ To express certain concepts, only certain words will be used.
 - **if**: introduces a protasis, a comma separates the apodosis if it comes after the protasis.
 - **in order to**: introduces a final clause.
 - **might**: introduces something that might happen or an uncertain consequence.
-- **must**: introduces a necessary condition for the script to work properly.
-- **need to**: introduces a necessary condition to achieve a specific goal (paired with **in order to**).
+- **must**: introduces a necessary condition.
 - **should**: introduces a suggestion.
 - **will**: introduces a certain consequence (using 1st-type conditional clauses).
 

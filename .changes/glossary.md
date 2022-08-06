@@ -79,7 +79,7 @@ Use *the MoodMatrix Instruction/Container* when:
 - referring to the contents of the the MoodMatrix Container.
   > e.g. "The Statements in the MoodMatrix Container"
 
-There is no term for to the act of a player using the Mood Matrix on a witness.
+There is no term for to the act of a player using the Mood Matrix on a witness. *(Suggestion: therapy session (n.), conduct a therapy session on (v.))*
 
 ## Oddly capitalized words
 

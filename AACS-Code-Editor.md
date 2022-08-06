@@ -56,12 +56,12 @@ This placeholder is case-sensitive so it only works if it's written all in capit
 ## Toolbar
 The toolbar next to the "View" menu entry contains two options.
 ![](https://www.debygames.com/aacs/drex_3__aacs_code_editor_custom_9.png)
-The first option is for commenting out a highlighted section of the script. This currently only works one way, so you can comment out a highlighted part, but not reverse it. Sections that are commented out are ignored when compiling and quick testing.
+The first option is for commenting out a highlighted section of the script. This currently only works one way, so you can comment out a highlighted section, but in order to reverse this you must manually remove the comment tags. Sections that are commented out are ignored when compiling and Quick Testing.
 
-The second option, labeled "Quick Test", executes a highlighted section of instructions in the script. If you don't highlight anything and simply press "Quick Test", then the whole script will be ran.
+The second option, labeled "Quick Test", executes a highlighted section of Instructions in the script. If you don't highlight anything and simply press "Quick Test", then the whole script will be run.
 
-Using Quick Test requires having a linked project first so that editor is able to find the assets. To link a project, you either have to open a project (.aact) with the editor or open the editor from the Asset Maker. To do that, you have the option in the menu at the top.
-![](https://www.debygames.com/aacs/drex_3__aacs_code_editor_custom_10.png)
+In order to use Quick Test, you must have a linked project so that the Editor is able to find the necessary assets. In order to link a project, you must open a project (.aact) from the Asset Maker. You can do that from a button at the top of the Asset Maker window.
+![](./Images/Editor/AMOpenCodeEditor)
 This will open the code editor and link a project to it. The actual use of the editor won't change, it will just enable the Quick Test function.
 If a project is linked, the name of it will be present in the title of the window in the form of a message saying "(Linked to PROJECT)".
 ![](https://www.debygames.com/aacs/drex_3__aacs_code_editor_custom_11.png)

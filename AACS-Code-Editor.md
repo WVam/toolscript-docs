@@ -27,7 +27,7 @@ In the top left section of the screen, there are two menu entries: "File" and "V
 
 ## Syntax Highlighting
 
-The Editor has syntax highlighting as well and highlights Instructions, punctuation, strings, booleans, and numbers for ease of reading.
+The Editor has syntax highlighting as well, and highlights Instructions, punctuation, strings, booleans, and numbers for ease of reading.
 
 ![](./Images/Editor/SyntaxHighlighting.png)
 
@@ -39,7 +39,7 @@ In the file browser you can only see folders and .aacs files. This allows you to
 
 ![](./Images/Editor/FileBrowser.png)
 
-Left-clicking and then right-clicking on an item will reveal additional options, depending on the selected item.
+Left-clicking and then right-clicking on an item will reveal additional options, depending on the selected item.  
 |Option|Description|Chapters|Folders|Script files|
 |:---:|:---:|:----:|:----:|:---:|
 |New Chapter|Creates a new chapter|✓|✗|✗|
@@ -86,11 +86,11 @@ The "Compile Game" button next to the toolbar will compile a releaseable version
 
 ## Code Completion
 
-Code Completion allows you to make the engine automatically complete an Instruction you were typing. This feature can be accessed by pressing CTRL+T.
+Code Completion allows you to make the engine automatically complete the Instruction you are typing. This feature can be accessed by pressing CTRL+T.
 
 ![](./Images/Editor/CodeCompletion.png)
 
-After pressing this keybind, a list of Instructions will appear. If you start typing the desired Instruction, the list of suggested Instructions will be narrowed down based on your input. Certain Instructions may appear twice if they have a shortened version (e.g. DisplayText).
+After pressing this keybind, a list of Instructions will appear. If you start typing the desired Instruction, the list of suggested Instructions will be narrowed down based on your input. Certain Instructions may appear twice if they have a shortened version (e.g. [ButtonChoice](ButtonChoice.md)).
 
 ![](./Images/Editor/CodeCompletionDuplicates.png)
 
@@ -104,7 +104,7 @@ Certain Instructions, such as SelectSpot, require x and y coordinates on the gam
 
 Moving your cursor over the black area in the pinpointer will display the X and Y coordinates of it as if it were on the game screen. Left-clicking the screen will place a SelectSpot Instruction in the script with the cursor's coordinates already inputted as parameters. Right-clicking will allow you to change the background of the pinpointer.
 
-## Script Inclusion & Compiler Instructions
+## Compiler Instructions and Script Inclusion
 
 Compiler Instructions are a special type of Instruction. They do not affect gameplay, but are integral to creating games with AACT.
 

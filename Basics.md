@@ -6,12 +6,12 @@
 ---
 Before getting into the Instructions of the **Ace Attorney Casing Tool Script (AACS)**, there is some information and terminology that you ought to know.
 
-1. AACS is very forgiving. If you make typos or pass the wrong parameters, the erroneous lines will simply be skipped and the next Instruction will be read rather than crashing the game.
+1. AACS is very forgiving. If you make typos or pass the wrong parameters, the game will NOT crash: instead, the erroneous lines will be skipped and the next Instruction will be read.
     
     The exact reason for an Instruction to be ignored can be any of the following:
-    1. The Instruction starts with "->", which indicates that this and any subsequent lines until "<-" are comments;
-    2. The Instruction cannot be interpeted. Normally caused by a typo or syntax error;
-    3. There are not enough parameters, or they cannot be interpreted. Some instructions require parameters, too few and the Instruction will be ignored, too many and the additional parameters will be ignored. Occasionally the engine may crash if it fails to interpret a parameter.
+    1. The Instruction starts with "->", which indicates that this and any subsequent lines until "<-" are comments.
+    2. The Instruction cannot be interpeted. Normally caused by a typo or syntax error.
+    3. There are not enough parameters, or they cannot be interpreted. Some instructions require parameters: too few and the Instruction will be ignored, too many and the additional parameters will be ignored. Occasionally, the engine might crash if it fails to interpret a parameter.
 
 2. **Instructions** are the actual commands for the game, and are typed out in the code editor. There are four types of Instructions: **Regular Instructions**, **Container Instructions**, **Hybrid Instructions** and **Branch Instructions**.
 

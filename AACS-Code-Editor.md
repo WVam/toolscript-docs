@@ -100,7 +100,7 @@ Once the correct Instruction is highlighted, hit enter to complete the Instructi
 
 Certain Instructions, such as SelectSpot, require x and y coordinates on the game screen to function as intended. The pinpointer is a tool to allow you to easily find and record these coordinates.
 
-![](./Images/Editor/Pinpointer.png)
+![](./Images/Editor/Pinpointer2.png)
 
 Moving your cursor over the black area in the pinpointer will display the X and Y coordinates of it as if it were on the game screen. Left-clicking the screen will place a SelectSpot Instruction in the script with the cursor's coordinates already inputted as parameters. Right-clicking will allow you to change the background of the pinpointer.
 

@@ -5,7 +5,7 @@ The AACS Documentation was changed to follow this style guide. Most glossary-lik
 ## Structure-related terminology
 Here, this documentation's established terminology has been changed to match more widespread terminology.
 - What is contained in a single page is called a **page**.
-- What is contained between two h2 headers is called a **section*.
+- What is contained between two h2 headers is called a **section**.
 - What is contained between a header of level h3 or lower and the next header of the same or higher level is called a **subsection**.
 
 ## Command words et similia

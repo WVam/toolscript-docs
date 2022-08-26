@@ -27,7 +27,7 @@ In the top left section of the screen, there are two menu entries: "File" and "V
 
 ## Syntax Highlighting
 
-The Editor has syntax highlighting as well, and highlights Instructions, punctuation, strings, booleans, and numbers for ease of reading.
+The Editor has syntax highlighting as well. It highlights Instructions, punctuation, strings, booleans, and numbers for ease of reading.
 
 ![](./Images/Editor/SyntaxHighlighting.png)
 
@@ -98,11 +98,11 @@ Once the correct Instruction is highlighted, hit enter to complete the Instructi
 
 ## Pinpointer
 
-Certain Instructions, such as SelectSpot, require x and y coordinates on the game screen to function as intended. The pinpointer is a tool to allow you to easily find and record these coordinates.
+Certain Instructions, such as [SelectSpot](SelectSpot.md), require x and y coordinates on the game screen to function as intended. The pinpointer is a tool to allow you to easily find and record these coordinates.
 
 ![](./Images/Editor/Pinpointer2.png)
 
-Moving your cursor over the black area in the pinpointer will display the X and Y coordinates of it as if it were on the game screen. Left-clicking the screen will place a SelectSpot Instruction in the script with the cursor's coordinates already inputted as parameters. Right-clicking will allow you to change the background of the pinpointer.
+Moving your cursor over the black area in the pinpointer will display the X and Y coordinates of it as if it were on the game screen. Left-clicking the screen will place a [SelectSpot](SelectSpot.md) Instruction in the script with the coordinates of the cursor already inputted as parameters. Right-clicking will allow you to change the background of the pinpointer.
 
 ## Compiler Instructions and Script Inclusion
 

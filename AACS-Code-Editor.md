@@ -120,7 +120,7 @@ This script contains the @Include Compiler Instruction:
 ```
 Compiler Instructions, unlike all other types of Instruction, always start with an @ and **do NOT end with a semicolon** `;`. When an @Include Instruction is encountered, the designated script file is loaded and executed at that position. In this case, "MagicalMusicShow.aacs" would be loaded and executed. This Instruction can be placed anywhere in the script, and also works while debugging.
 
-The benefit of this is that the 2GB limit of a single script file can be circumvented by loading other scripts. This Instruction is also the reason why there must always be a Prelude.aacs file in your project. Prelude.aacs is the first script that will be executed by the compiler, and it is automatically added when a new project file is created. It must **NOT** be deleted. If it is not present, the game will not compile.
+This Instruction is also the reason why there must always be a Prelude.aacs file in your project. Prelude.aacs is the first script that will be executed by the compiler, and it is automatically added when a new project file is created. It must **NOT** be deleted. If it is not present, the game will not compile.
 
 ---
 [Back to overview](index.md)

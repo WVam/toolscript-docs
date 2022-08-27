@@ -4,7 +4,7 @@ The AACS Documentation was changed to follow this style guide. Most glossary-lik
 
 # Formatting
 - Bold is used for emphasis.
-- Monospace is used for parameters.
+- Monospace is used for parameters and charactres/groups of character that are significant to the syntax (e.g.: `->`).
 - Code blocks are used for script.
 - Block quotes are used for notes.
 - Headers are used for headers.

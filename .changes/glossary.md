@@ -2,6 +2,11 @@
 
 The AACS Documentation was changed to follow this style guide. Most glossary-like parts were extrapolated from indications by the developer as well as use of words throughout the documentation.
 
+# Formatting
+- Bold is used for emphasis.
+- Monospace is used for parameters.
+- Instruction names always link to the relativa page.
+
 ## Structure-related terminology
 Here, this documentation's established terminology has been changed to match more widespread terminology.
 - What is contained in a single page is called a **page**.

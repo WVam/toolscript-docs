@@ -31,7 +31,7 @@ Syntax:
          AND [Expression2] does NOT return True <-
 12: );
 ```
->You can learn more about expressions in the documentation about [Variables](Variables.md). **Else** and **Else If** Instructions are ignored if the previous Instruction is not an **If** or an **Else If**.
+>You can learn more about expressions in the [Variables](Variables.md) page. **Else** and **Else If** Instructions are ignored if the previous Instruction is not an **If** or an **Else If**.
 
 ## While
 

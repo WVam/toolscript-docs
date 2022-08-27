@@ -8,7 +8,7 @@ The AACS Documentation was changed to follow this style guide. Most glossary-lik
 - Code blocks are used for script.
 - Block quotes are used for notes.
 - Headers are used for headers.
-- Instruction names always link to the relativa page.
+- Instruction names always link to their respective page.
 
 ## Structure-related terminology
 Here, this documentation's established terminology has been changed to match more widespread terminology.

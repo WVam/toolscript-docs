@@ -48,7 +48,7 @@ Left-clicking and then right-clicking on an item will reveal additional options,
 |Delete|Deletes the selected item|✓|✓|✓|
 |Open Folder|Opens the folder/chapter in File Explorer|✓|✓|✗|
 
-> Note: At the moment (as of 2022/08/06), some of these options (New Chapter, Open Folder) do not work correctly and only show up when clicking on the empty space below the items in the file browser
+> Note: At the moment (as of v2.0.16), some of these options (New Chapter, Open Folder) do not work correctly and only show up when clicking on the empty space below the items in the file browser
 
 ## Templates
 

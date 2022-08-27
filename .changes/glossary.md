@@ -5,6 +5,9 @@ The AACS Documentation was changed to follow this style guide. Most glossary-lik
 # Formatting
 - Bold is used for emphasis.
 - Monospace is used for parameters.
+- Code blocks are used for script.
+- Block quotes are used for notes.
+- Headers are used for headers.
 - Instruction names always link to the relativa page.
 
 ## Structure-related terminology

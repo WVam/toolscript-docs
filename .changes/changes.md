@@ -5,20 +5,29 @@ Updated 2022/08/06 WIP
 ## In general
 - Fixed various spelling and grammar mistakes.
 - Rephrased unclear and oddly constructed sentences.
+- Rearranged some text within the same section/subsection (when moving to other sections/subsections, it will be stated).
 - Changed some expressions to match the [Style Guide](./glossary.md).
   - By the way, I created a Style Guide to promote consistency.
 - Corrected incorrect information
 
 ## AACS-Code-Editor.md
 
-- Rolled back to pre-placeholder version, with some "adjustments":  
+- Rolled back to pre-placeholder version, with some adjustments:  
   - Changed formatting to match current formatting conventions.  
-  - Removed outdated information on linking and unlinking.  
+    - Added header and footer
+  - Removed outdated information on linking and unlinking. 
   - Added a warning about possible outdated information.  
   - Added images back.
   - Updated some information to the current Code Editor version.
+  - Changed some text to reflect the new example given for the `@Include` Instruction.
 
 ## Basics.md
-- Small rephrasing
-- Glossary compliance
+- Formatted the technical information under 6. **Comment** as a note (block quote).
+  - This information is now referred to in 1. **The semicolon**
+    > If there is no semicolon at the end of an Instruction, the engine will skip the line and won't execute the Instruction (see 6. **Comments** for more info).
+
+## Branch-Instructions.md
+- Replaced `[AACS HERE]` with a `->Your AACS here<-`, as in Code Completion.
+  - In the If section, it was replaced with a description of the conditions under which the script would be executed (e.g. `-> The Instructions contained here are executed if [Expression] returns True <-`.
+- Specified that the [VALUE] in For should be positive (in case it wasn't obvious).
 

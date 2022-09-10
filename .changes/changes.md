@@ -49,3 +49,9 @@ When *Nothing significant* is written under a document changelog, it means that 
 ## CrossExamC.md
 - Commented out "INSTRUCTIONS" in the CrossExamination Instruction template.
 
+## DecreaseHealth.md
+*Nothing significant*
+
+## DisplayEvidence.md
+*Nothing significant*
+

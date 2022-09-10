@@ -8,7 +8,11 @@ Updated 2022/08/06 WIP
 - Rearranged some text within the same section/subsection (when moving to other sections/subsections, it will be stated).
 - Changed some expressions to match the [Style Guide](./glossary.md).
   - By the way, I created a Style Guide to promote consistency.
-- Corrected incorrect information
+- Corrected incorrect information.
+- Improved offline compatibility.
+  - Added a space before and after the second horizontal rule in each page.
+
+When *Nothing significant* is written under a document changelog, it means that all changes fell under these categories.
 
 ## AACS-Code-Editor.md
 
@@ -30,4 +34,18 @@ Updated 2022/08/06 WIP
 - Replaced `[AACS HERE]` with a `->Your AACS here<-`, as in Code Completion.
   - In the If section, it was replaced with a description of the conditions under which the script would be executed (e.g. `-> The Instructions contained here are executed if [Expression] returns True <-`.
 - Specified that the `[VALUE]` in For should be positive (in case it wasn't obvious).
+
+## Break.md
+*Nothing significant*
+
+## BreakLock.md
+*Nothing significant*
+
+## ChangeTextBox.md
+- Default Value for the `Name` parameter was changed to:
+    > See **Remarks**
+- Added an example regarding textboxes without a namebox.
+
+## CrossExamC.md
+- Commented out "INSTRUCTIONS" in the CrossExamination Instruction template.
 

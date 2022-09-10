@@ -39,14 +39,14 @@ In the file browser you can only see folders and .aacs files. This allows you to
 
 ![](./Images/Editor/FileBrowser.png)
 
-Left-clicking and then right-clicking on an item will reveal additional options, depending on the selected item.  
-|Option|Description|Chapters|Folders|Script files|
-|:---:|:---:|:----:|:----:|:---:|
-|New Chapter|Creates a new chapter|✓|✗|✗|
-|New Folder|Creates a new folder in the selected chapter/folder|✓|✓|✗|
-|New Script|Creates a new script in the selected chapter/folder|✓|✓|✗|
-|Delete|Deletes the selected item|✓|✓|✓|
-|Open Folder|Opens the folder/chapter in File Explorer|✓|✓|✗|
+Left-clicking and then right-clicking on an item will reveal additional options, depending on the selected item.
+|Option|Description|Appears when clicking on:|
+|:---:|:---:|:----:|
+|New Chapter|Creates a new chapter|Chapters|
+|New Folder|Creates a new folder in the selected chapter/folder|Chapters and folders|
+|New Script|Creates a new script in the selected chapter/folder|Chapters and folders|
+|Delete|Deletes the selected item|Chapters, folders, and script files|
+|Open Folder|Opens the folder/chapter in File Explorer|Chapters and folders|
 
 > Note: At the moment (as of v2.0.16), some of these options (New Chapter, Open Folder) do not work correctly and only show up when clicking on the empty space below the items in the file browser
 

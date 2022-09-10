@@ -18,7 +18,7 @@ Any other number means that a contradiction has to be found in order for the Cro
 > Regardless of the `MODE`, you can always end a Cross Examination by using the [FinishCrossExam](FinishCrossExam.md) Instruction.
 > If you want to combine the two modes, meaning you want the Cross Examination to end either way, set it to 1. That will take care of the "Press" condition. To end it by objecting, execute the FinishCrossExam Instruction in a Frame that gets executed through the PickEvidence Instruction mentioned below.  
 
-Cross Examinations, just like Frames, are Container Instructions, which means they can host multiple Instructions inside. Unlike Frames, however, you are limited as to what kind of Instructions you can add to the body of the Cross Examination.
+Cross Examinations, just like Frames, are Container Instructions, which means they can host multiple Instructions inside. However, unlike Frames, you are limited as to what kind of Instructions you can add to the body of a Cross Examination.
 
 ## Statements
 
@@ -34,9 +34,9 @@ A Statement Instruction is built like this:
 
 > Statement Instructions do **NOT** end with a semicolon.
  
-**NUM** is the number of the Atatement Instruction. The first one must always be "1". The upper limit is 10, so you can have a maximum of 10 Statements per Cross Examination.
+**NUM** is the number of the Statement Instruction. The first one must always be "1". The upper limit is 10, so you can have a maximum of 10 Statements per Cross Examination.
 
-`Instruction1` and `Instruction2` can be any Regular Instruction you want, but it only makes sense for them to be [PlayFrame](PlayFrame.md) Instructions. `Instruction1` will be executed when the Statement is being played (so it should contain a [PlayFrame](PlayFrame.md) Instruction that plays a Frame that displays green text). `Instruction2` will be executed when the player clicks on the "Press" button.  
+`Instruction1` and `Instruction2` can be any Regular Instruction you want, but it only makes sense for them to be [PlayFrame](PlayFrame.md) Instructions. `Instruction1` will be executed when the Statement is played (so it should contain a [PlayFrame](PlayFrame.md) Instruction that plays a Frame that displays green text). `Instruction2` will be executed when the player clicks on the "Press" button.  
 
 `Instruction3` is optional, but if you use it, it **must** be a [PickEvidence](PickEvidence.md) Instruction. Add this to the Statement that contains a contradiction to make it objectionable.
 

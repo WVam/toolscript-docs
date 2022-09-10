@@ -15,8 +15,8 @@ Prepares a character position on the screen and optionally sets a character in t
 |PosY|Number|The placement on the Y axis of the current location.|✗|0|
 |Name|String|The name of the character to load.|✗|-|
 |Emote|String|The emote of the character to load.|✗|-|
-|PlayPre|Boolean|Whether or not the pre-animation should be played.|✗|See Remarks|
-|WaitForPre|Boolean|Whether or not the engine should wait for the pre-animation to finish before continuing.|✗|See Remarks|
+|PlayPre|Boolean|Whether or not the pre-animation should be played.|✗|See **Remarks**|
+|WaitForPre|Boolean|Whether or not the engine should wait for the pre-animation to finish before continuing.|✗|See **Remarks**|
 
 ### Examples:
 #### Example #1: Preparing the 'Center' position at (0, 0) without loading an initial character.

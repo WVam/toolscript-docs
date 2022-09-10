@@ -39,7 +39,7 @@ If your textbox also has a version without the namebox, add the image with the s
 > 1:  ChangeTextBox:["Dual Destinies"];
 > 2:  DisplayText:[-|"That attorney...#[200] He is so mean!"];
 > ```
-> the DisplayText Instruction at line 2 will use the "Dual Destinies_NoName.png".
+> the DisplayText Instruction at line 2 will use the "Dual Destinies_NoName.png" image for the textbox.
 
 You can specify a textbox directly in the Theme, as well.
 

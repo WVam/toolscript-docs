@@ -6,16 +6,16 @@
 ---
 
 ### Description
-Breaks the next Psyche-Lock.
+Breaks the next Psyche Lock.
 
 ### Parameters
 
 |Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
-|Break all|Boolean|Whether or not all locks should be broken at once.|-|false|
+|Break all|Boolean|Whether or not all Psyche Locks should be broken at once.|-|false|
 
 ### Examples:
-#### Example #1: Breaking a Psyche-Lock.
+#### Example #1: Breaking a Psyche Lock.
 ```
 1:  ...
 2:  BreakLock;

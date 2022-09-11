@@ -28,7 +28,7 @@ Displays a dialogue box and the text inside it. By default, the text is displaye
 
 #### Example #2: A nameless dialogue box to, perhaps, display an objective fact. The character on screen, if any, is not talking.
 ```
-1:  DisplayText:[-|"#GreenSpeling is not my strong suite."|true];
+1:  DisplayText:[-|"#GreenSpeling is not my strong suit."|true];
 ```
 
 #### Example #3: Apollo reacts to his bracelet, with a small pause after 'What?'.

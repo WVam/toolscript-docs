@@ -6,7 +6,8 @@ Updated 2022/08/06 WIP
 - Fixed various spelling and grammar mistakes.
 - Rephrased unclear and oddly constructed sentences.
 - Rearranged some text within the same section/subsection (when moving to other sections/subsections, it will be stated).
-- Changed some expressions to match the [Style Guide](./glossary.md).
+- Added more links to relevant pages.
+- Changed some expressions to match the [Style Guide](https://github.com/WVam/toolscript-docs/blob/main/.changes/glossary.md).
   - By the way, I created a Style Guide to promote consistency.
 - Corrected incorrect information.
 - Improved offline compatibility.
@@ -65,3 +66,52 @@ When *Nothing significant* is written under a document changelog, it means that 
 *Nothing significant*
 
 ## DisplayText.md
+- Mispelled "Spelling".
+
+## Examine.md
+- Added Required and Default Value columns to Parameters table of Point (stated as ✓ and - respectively for all parameters) for clarity.
+- Changed the description of the OFFSET parameter to make it clear that Spots are squares and not circles.
+- Added links to Investigations page at the top and at the bottom next to the "Back to overview" link.
+
+## FadeInBackground.md
+*Nothing significant*
+
+## FadeInCharacter.md
+*Nothing significant*
+
+## FadeInForeground.md
+*Nothing significant*
+
+## FadeInMusic.md
+*Nothing significant*
+
+## FadeInScene.md
+*Nothing significant*
+
+## FadeOutBackground.md
+*Nothing significant*
+
+## FadeOutCharacter.md
+*Nothing significant*
+
+## FadeOutForeground.md
+*Nothing significant*
+
+## FadeOutMusic.md
+*Nothing significant*
+
+## FadeOutScene.md
+*Nothing significant*
+
+## FinishAllInvestigation.md
+*Nothing significant*
+
+## FiniscCrossExam.md
+*Nothing significant*
+
+## FinishInvestigation.md
+*Nothing significant*
+
+## FinishMoodMatrix.md
+*Nothing significant*
+

@@ -55,3 +55,13 @@ When *Nothing significant* is written under a document changelog, it means that 
 ## DisplayEvidence.md
 *Nothing significant*
 
+## DisplayHealth.md
+*Nothing significant*
+
+## DiplayPopup.md
+*Nothing significant*
+
+## DisplayPopupWait.md
+*Nothing significant*
+
+## DisplayText.md

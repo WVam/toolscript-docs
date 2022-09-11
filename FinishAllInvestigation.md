@@ -6,7 +6,7 @@
 ---
 
 ### Description
-Sets all Investigations to finished.
+Finishes all Investigations.
 
 ### Parameters
 This Instruction has no parameters.

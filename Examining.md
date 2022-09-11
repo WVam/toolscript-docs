@@ -1,4 +1,4 @@
-[Back to overview](index.md) • [Back to Investigations article](InvestigationC.md)
+[Back to overview](index.md) • [Back to Investigations page](InvestigationC.md)
 
 ---
 # Examining
@@ -16,7 +16,7 @@ Example:
 ```
 
 ## AlreadyExamined
-This Hybrid Instruction contains one parameter which is a Regular Instruction. It will be executed when the player clicks on the "Examine" button after having examined all spots, which are defined by a Point instruction.
+This Hybrid Instruction contains one parameter which is a Regular Instruction. It will be executed when the player clicks on the "Examine" button after having examined all spots, which are defined by a Point Instruction.
 
 Example:
 ```
@@ -41,11 +41,11 @@ Point:{X|Y|OFFSET|FIRST DISCOVER|SECOND DISCOVER};
 
 |Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
-|X|Number|The position on the x-axis.|✓|-|
-|Y|Number|The position on the y-axis.|✓|-|
-|OFFSET|Number|The amount of pixels the cursor is allowed to be off from the defined position.|✓|-|
-|FIRST DISCOVER|Regular Instruction|Gets executed the first time this point is clicked on.|✓|-|
-|SECOND DISCOVER|Regular Instruction|Gets executed every subsequent time this point is clicked on.|✓|-|
+|X|Number|The position of the point on the x-axis.|✓|-|
+|Y|Number|The position of the point on the y-axis.|✓|-|
+|OFFSET|Number|The offset around the X and Y positions (by how much the x and y positions of the clicked spot can differ from `X` and `Y` respectively while still being considered part of the point).|✓|-|
+|FIRST DISCOVER|Regular Instruction|Gets executed the first time that the player clicks on this point.|✓|-|
+|SECOND DISCOVER|Regular Instruction|Gets executed every subsequent time that the player clicks on this point.|✓|-|
 
 Example:
 ```
@@ -55,4 +55,4 @@ Example:
 There can be as many Point Instructions as you want.
 
 ---
-[Back to overview](index.md) • [Back to Investigations article](InvestigationC.md)
+[Back to overview](index.md) • [Back to Investigations page](InvestigationC.md)

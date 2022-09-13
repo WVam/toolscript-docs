@@ -21,14 +21,14 @@ Here, this documentation's established terminology has been changed to match mor
 To express certain concepts, only certain words will be used.
 
 - **abbr.**: introduces an abbreviation.
-- **can**: introduces something that can be done optionally. Do not use in alternative options one of which MUST be chosen (use "need to either... or...".
+- **can**: introduces something that can be done optionally. Do not use in alternative options one of which MUST be chosen (use "need to/must either... or...".
 - **e.g.**: introduces an example in brackets.
 - **for example**/**for instance**: introduces an example.
 - **i.e.**: introduces an explaination.
 - **if**: introduces a protasis, a comma separates the apodosis if it comes after the protasis.
 - **in order to**: introduces a final clause.
 - **might**: introduces something that might happen or an uncertain consequence.
-- **must**: introduces a necessary condition.
+- **must**/**need to**: introduces a necessary condition.
 - **should**: introduces a suggestion.
 - **will**: introduces a certain consequence (using 1st-type conditional clauses).
 

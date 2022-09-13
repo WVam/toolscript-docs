@@ -80,9 +80,9 @@ The verb *investigate* is used (not \**Investigate*).
 
 Use *the Mood Matrix* when
 - referring to the gameplay mechanic;
-  > e.g. "The Mood Matrix allows the player to find evidence at the crime scene"
+  > e.g. "The Mood Matrix allows the player to visualize a person's true emotions"
 
-Use *Mood Matrix sequence when:
+Use *Mood Matrix sequence* when:
 - referring to the gameplay sequence.
   > e.g. "During Cross Examinations, a player may present evidence"
 

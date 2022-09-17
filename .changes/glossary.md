@@ -5,10 +5,13 @@ The AACS Documentation was changed to follow this style guide. Most glossary-lik
 # Formatting
 - Bold is used for emphasis.
 - Monospace is used for parameters and charactres/groups of character that are significant to the syntax (e.g.: `->`).
+  - It's also used for Instructions written with their parameters and final semicolon.
 - Code blocks are used for script.
 - Block quotes are used for notes.
 - Headers are used for headers.
 - Instruction names always link to their respective page.
+
+Higlight "not" or command words when particularly important by writing them in uppercase and bold (**NOT**). For "cannot", use "**CANNOT**".
 
 ## Structure-related terminology
 Here, this documentation's established terminology has been changed to match more widespread terminology.
@@ -16,23 +19,53 @@ Here, this documentation's established terminology has been changed to match mor
 - Everything under a h2 header up until the next h2 header is called a **section**.
 - Everything under a header of level h3 or lower up until the next header of the same or higher level is called a **subsection**.
 
-## Command words et similia
+## Commands and instructions
+
+### Consistency
 
 To express certain concepts, only certain words will be used.
 
 - **abbr.**: introduces an abbreviation.
-- **can**: introduces something that can be done optionally. Do not use in alternative options one of which MUST be chosen (use "need to/must either... or...".
 - **e.g.**: introduces an example in brackets.
-- **for example**/**for instance**: introduces an example.
+- **Example:** / **Examples:** : introduces an example in block quotes.
+- **for example**/**for instance**: introduces an example outside of brackets.
 - **i.e.**: introduces an explaination.
-- **if**: introduces a protasis, a comma separates the apodosis if it comes after the protasis.
-- **in order to**: introduces a final clause.
-- **might**: introduces something that might happen or an uncertain consequence.
-- **must**/**need to**: introduces a necessary condition.
-- **should**: introduces a suggestion.
-- **will**: introduces a certain consequence (using 1st-type conditional clauses).
 
-Higlight "not" or the words above when particularly important by writing it in uppercase and bold (**NOT**). For "cannot", use "**CANNOT**".
+### "if" and "whether"
+Use "if" to introduce a **condition**.
+
+> Example:
+> 
+> "If you run the Break Instruction, the game will wait for player input in order to continue."
+
+Use "whether... or..." and "whether or not..." to introduce an **indirect interrogative clause**.
+
+ > Examples:
+ > 
+ > "**Whether or not** a string contains meaningful words is irrelevant"  
+ > "**Whether** you set the parameter to a number **or** to a string is irrelevant"
+
+Use "regardless of whether... or..." and "regardless of whether or not..." to introduce **concessive clauses**.
+
+ > Examples:
+ > 
+ > Do **NOT** write this: "The script will run regardless of \**if* you passed the right parameter."  
+ > Write **THIS**: "The script will run **regardless of whether or not** you passed the rigth parameter."
+
+### "may"
+Do **NOT** use the verb "may". It can be interpreted as meaning both ability and possibility. For ability, use "can". For possibility, use "might".
+
+> Example:  
+> 
+> Do **NOT** write this: "This Instruction \**may* cause the game to crash".  
+> Write **THIS**: "This Instruction **might** cause the game to crash".  
+> 
+> Do **NOT** write this: "You \**may* substitute a parameter with the character `-`."  
+> Write **THIS**: "You **can** substitute a parameter with the character `-`."
+
+### "to"
+
+If the meaning of "to" used to express a purpose might be ambiguous to a hasty reader, replace it with "in order to".
 
 ## Cross Examinations
 
@@ -97,6 +130,7 @@ There is no term for to the act of a player using the Mood Matrix on a witness. 
 ## Oddly capitalized words
 
 - Branch (Instruction)
+- Code Completion
 - Container (Instruction)
 - Court Record
 - Frame

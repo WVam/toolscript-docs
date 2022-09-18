@@ -12,7 +12,7 @@ Changes the textbox to use custom images in the "UI" folder.
 
 |Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
-|Name|String|The file name without the file extension.|✓|See **Remarks**|
+|Name|String|The file name without the file extension.|✓|See [Remarks](#remarks)|
 
 ### Examples:
 #### Example #1: Changing the custom textbox visuals to a custom file called "Dual Destinies.png" in the "UI" folder.
@@ -30,9 +30,11 @@ Changes the textbox to use custom images in the "UI" folder.
 ```
 
 ### Remarks:
-This option changes the textbox visuals for all following [DisplayText](DisplayText.md) Instructions, so you only have to call it once, for example at the beginning of the script. If you pass the null character `-`, the textbox will be changed to the default style again. 
+This Instruction changes the textbox visuals for all following [DisplayText](DisplayText.md) Instructions, so you only have to call it once, for example at the beginning of the script.
 
-To use an image, you have to save it in the "UI" folder of the theme you wish to use.  
+If you pass the null character `-` to the `Name` parameter, the textbox will be changed back to the default style. 
+
+To use an image, you must save it in the "UI" folder of the Theme you wish to use.  
 If your textbox also has a version without the namebox, add the image with the same name as the textbox with the namebox + "_NoName".
 > For example, if the image your custom textbox **with** a namebox is named "Dual Destinies.png", add the image for your custom textbox **without** the namebox as "Dual Destinies_NoName.png". After that, if you run the following Instructions:
 > ```
@@ -41,7 +43,7 @@ If your textbox also has a version without the namebox, add the image with the s
 > ```
 > the DisplayText Instruction at line 2 will use the "Dual Destinies_NoName.png" image for the textbox.
 
-You can specify a textbox directly in the Theme, as well.
+You can also specify a textbox directly in the Theme.
 
 ---
 [Back to overview](index.md)

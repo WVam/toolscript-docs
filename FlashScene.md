@@ -27,8 +27,10 @@ Makes the screen flash white.
 ```
 
 ### Remarks:
-The `Duration` parameter determines the total duration of the flash. This means that fading in and fading out each take half the time specified in `Duration`.
-Example: If `Duration` is set to 200, it will take 100 milliseconds for the scene to fade to white and then another 100 milliseconds for the scene to fade back in.
+The `Duration` parameter determines the total duration of the flash. This means that fading in and fading out each take half the time specified in `Duration`.  
+> Example:
+> 
+> If `Duration` is set to 200, it will take 100 milliseconds for the scene to fade to white and then another 100 milliseconds for the scene to fade back in.
 
 ---
 [Back to overview](index.md)

@@ -1,4 +1,11 @@
-Updated 2022/08/06 WIP
+Updated 2022/09/18 WIP
+
+---
+## TO DO (3rd revision)
+- [ ] Check for termonology compliance.
+- [ ] Add links and titles to Instruction names.
+- [ ] Add "Instructions in this page" to footer.
+- [ ] Add psyche bar and health bar explaination to all relevant pages.
 
 # Changelog
 
@@ -114,4 +121,13 @@ When *Nothing significant* is written under a document changelog, it means that 
 
 ## FinishMoodMatrix.md
 *Nothing significant*
+
+## FlashHealth.md
+*Nothing significant*
+
+## FlashScene.md
+*Nothing significant*
+
+## Frame.md
+- Added explaination of syntax.
 

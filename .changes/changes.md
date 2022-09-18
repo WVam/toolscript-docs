@@ -1,11 +1,15 @@
 Updated 2022/09/18 WIP
 
 ---
-## TO DO (3rd revision)
+
+**TO DO (3rd revision)**
 - [ ] Check for termonology compliance.
 - [ ] Add links and titles to Instruction names.
 - [ ] Add "Instructions in this page" to footer.
+- [ ] Change all example titles to 3rd person.
 - [ ] Add psyche bar and health bar explaination to all relevant pages.
+
+---
 
 # Changelog
 
@@ -51,7 +55,9 @@ When *Nothing significant* is written under a document changelog, it means that 
 
 ## ChangeTextBox.md
 - Default Value for the `Name` parameter was changed to:
-    > See **Remarks**
+    > See [Remarks](#changetextboxmd)
+
+  The links is to the "Remarks" section in the actual page.
 - Added an example regarding textboxes without a namebox.
 
 ## CrossExamC.md
@@ -73,7 +79,7 @@ When *Nothing significant* is written under a document changelog, it means that 
 *Nothing significant*
 
 ## DisplayText.md
-- Mispelled "Spelling".
+- Misspelled "Spelling".
 
 ## Examine.md
 - Added Required and Default Value columns to Parameters table of Point (stated as ✓ and - respectively for all parameters) for clarity.
@@ -131,3 +137,7 @@ When *Nothing significant* is written under a document changelog, it means that 
 ## Frame.md
 - Added explaination of syntax.
 
+## GameOver.md
+*Nothing significant*
+
+## GenerateRandom.md

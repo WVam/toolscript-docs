@@ -40,13 +40,13 @@ Prepares a character position on the screen and optionally sets a character in t
 ```
 
 ### Remarks:
-Characters use X and Y positions as well. However, unlike locations, these are not relative to the camera or the logical parent specified in Themes. Instead, character positions are relative to the location. If the location moves via [PanCamera](PanCamera.md "Moves the camera to a new position), so does the character. The coordinates (0, 0) refer to the top left corner.
+Characters use X and Y positions as well. However, unlike locations, these are not relative to the camera or the logical parent specified in Themes. Instead, character positions are relative to the location. If the location moves via [PanCamera](PanCamera.md "Moves the camera to a new position"), so does the character. The coordinates (0, 0) refer to the top left corner.
 
-Setting a character is advisable but not required. Changing the emote or character can be done with the [SetCharacter](SetCharacter.md) Instruction.
+Setting a character is advisable but not required. Changing the emote or character can be done with the [SetCharacter](SetCharacter.md "Changes the emote and optionally the character of a character position") Instruction.
 
 Not specifying the `PlayPre` and/or `WaitForPre` parameters prompts AACT to use the default values specified in the emote editor of the Asset Maker.
 
-This Instruction triggers [HideTextBox](HideTextBox.md).
+This Instruction triggers [HideTextBox](HideTextBox.md "Hides the textbox with or without a fading animation").
 
 ---
 [Back to overview](index.md)

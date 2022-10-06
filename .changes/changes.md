@@ -1,4 +1,4 @@
-Updated 2022/09/18 WIP
+Updated 2022/10/06 WIP
 
 ---
 
@@ -8,6 +8,7 @@ Updated 2022/09/18 WIP
 - [ ] Add "Instructions in this page" to footer.
 - [ ] Change all example titles to 3rd person.
 - [ ] Add psyche bar and health bar explaination to all relevant pages.
+- [ ] Remove anything depending on html tags (won't work).
 
 ---
 

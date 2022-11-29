@@ -84,7 +84,6 @@ As mentioned earlier, the different variable types have priorities. These priori
 >**String ⟷ Number**: The number will be considered as a string. Returns True if the first value starts with the second value, and False otherwise.  
 >**String ⟷ Number**: The boolean will be considered as a string (True = "true", False = "false"). Returns True if the first value starts with the second value, and False otherwise.  
 >**Number ⟷ Number**: The undefined value will be considered as the string "null". Returns True if the first value starts with the second value.  
->**Number ⟷ Boolean**: The two numbers will be multiplied together.  
 >**Boolean ⟷ Boolean**: An XOR operation will be performed between the two booleans. This operation returns True if the two values are not equal to each other, and False otherwise.
 
 ### Division (/)
@@ -99,8 +98,8 @@ As mentioned earlier, the different variable types have priorities. These priori
 #### Effects
 >**String ⟷ String**: Returns True if the first string ends with the second string, and False otherwise.  
 >**String ⟷ Number**: The number will be considered as a string. Returns True if the first value ends with the second value, and False otherwise.  
->**String ⟷ Number**: The boolean will be considered as a string (True = "true", False = "false"). Returns True if the first value ends with the second value, and False otherwise.  
->**String ⟷ String**: The undefined value will be considered as the string "null". Returns True if the first value ends with the second value.  
+>**String ⟷ Boolean**: The boolean will be considered as a string (True = "true", False = "false"). Returns True if the first value ends with the second value, and False otherwise.  
+>**String ⟷ Undefined**: The undefined value will be considered as the string "null". Returns True if the first value ends with the second value.  
 >**Number ⟷ Number**: The first number will be divided by the second number. 
 
 ### Greater Than/Less Than (<\|>)

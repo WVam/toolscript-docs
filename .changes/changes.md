@@ -142,3 +142,6 @@ When *Nothing significant* is written under a document changelog, it means that 
 *Nothing significant*
 
 ## GenerateRandom.md
+- Default Value for the `Number 1` and `Number 2` parameters was changed to:
+    > See [Remarks](#generaterandommd)
+

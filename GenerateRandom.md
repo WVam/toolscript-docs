@@ -46,7 +46,7 @@ Depending on the variable type, `Number 1` and `Number 2` can have different mea
 |:---:|:---|
 |String|`Number 2` is ignored. `Number 1` determines how many characters the random string should have.|
 |Number|`Number 1` is the inclusive lower bound and `Number 2` is the inclusive upper bound of the range from which the random value is chosen. If `Number 1` is greater than `Number 2`, their position is switched automatically. Negative numbers are multiplied by -1.|
-|Boolean|`Number 2` is ignored. `Number 1` determines the chance in percent (100 = 100%) that the result will be `true`.|
+|Boolean|`Number 2` is ignored. `Number 1` determines the percentage chance that the result will be `True` (100 = 100%).|
 |Undefined|The Instruction is ignored.|
 
 If a variable with the specified name doesn't already exist, this Instruction can automatically create that variable. If only `Number 1` is provided, the resulting variable will be of type String. If `Number 2` is provided as well, the resulting variable will be of type Number.

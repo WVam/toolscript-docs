@@ -8,7 +8,7 @@
 Variables, like all Instructions, have a set syntax. They have the following format: #([VARNAME]).  
 [VARNAME] can be any alphanumerical string (a-z, A-Z, 0-9).
 
-Variables can have 4 different types: **String**, **Boolean**, **Number**, and **Undefined**. Keep in mind, variables are not strong typed. This means that the type can change at any time. The type is set implicit depending on the value it receives.
+Variables can have 4 different types: **String**, **Boolean**, **Number**, and **Undefined**. Keep in mind that variables are not strong typed. This means that the type can change at any time. The type is set implicit depending on the value it receives.
 
 ## Quick Overview:
 
@@ -16,8 +16,6 @@ Variables can have 4 different types: **String**, **Boolean**, **Number**, and *
 >A string is simple text. Encapsulating the value in quotes ("") will turn the variable into a string-type variable.  
 >A string has the second highest priority.
 
-
-<<<<<<< HEAD
 * [](#)**Number**
 >Numbers are whole numbers. This means that numbers have the range of a 32-bit integer with decimals not allowed.  
 >A number has the third highest priority.

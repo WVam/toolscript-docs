@@ -6,8 +6,9 @@ Updated 2022/11/29 WIP
 - [ ] Check for termonology compliance.
 - [ ] Add links and titles to Instruction names.
 - [ ] Add "Instructions in this page" to footer.
-- [ ] Change all example titles to 3rd person.
+- [ ] Change all example titles to imperative.
 - [ ] Add psyche bar and health bar explaination to all relevant pages.
+- [ ] Remove all references to position of health bar and psyche bar in the Instruction description.
 - [ ] Remove anything depending on html tags (won't work).
 
 ---
@@ -146,4 +147,7 @@ When *Nothing significant* is written under a document changelog, it means that 
     > See [Remarks](#generaterandommd)
 
 ## HideEvidence.md
+*Nothing significant*
+
+## HideHealth.md
 *Nothing significant*

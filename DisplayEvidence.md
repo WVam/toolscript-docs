@@ -2,7 +2,9 @@
 
 ---
 # DisplayEvidence (DE)
+
 ---
+
 ### Description
 Displays the thumbnail of a piece of evidence or profile in the top left corner.
 

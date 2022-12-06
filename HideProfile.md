@@ -2,9 +2,11 @@
 
 ---
 # HideProfile (HP)
+
 ---
+
 ### Description
-Hides a profile from the court record.
+Hides a profile from the Court Record.
 
 ### Parameters
 

@@ -1,12 +1,14 @@
-[Back to overview](index.md)
+[Back to overview](index.md) • [Back to Investigations page](InvestigationC.md)
 
 ---
 # Examining
+
 ---
-Examining is the most complex part of an investigation sequence. An examining container features 4 different hybrid instructions: AllExamined, AlreadyExamined, PointDefault and Point.
+
+Examining is the most complex part of an [Investigation](InvestigationC.md) sequence. An Examining Container features 4 different Hybrid Instructions: AllExamined, AlreadyExamined, PointDefault and Point.
 
 ## AllExamined
-This hybrid instruction contains one parameter which is a regular instruction. It will be executed once the player has examined all spots, defined by a Point instruction.
+This Hybrid Instruction contains one parameter which is a Regular Instruction. It will be executed once the player has examined all the spots, which are defined by a Point Instruction.
 
 Example:
 ```
@@ -14,7 +16,7 @@ Example:
 ```
 
 ## AlreadyExamined
-This hybrid instruction contains one parameter which is a regular instruction. It will be executed when the player clicks on the "Examine" button after all spots, defined by a Point instruction, have already been examined.
+This Hybrid Instruction contains one parameter which is a Regular Instruction. It will be executed when the player clicks on the "Examine" button after having examined all spots, which are defined by a Point Instruction.
 
 Example:
 ```
@@ -22,7 +24,7 @@ Example:
 ``` 
 
 ## PointDefault
-This hybrid instruction contains one parameter which is a regular instruction. It will be executed when the player examines a spot on the upper screen that is not defined by a Point Instruction.
+This hybrid instruction contains one parameter which is a Regular Instruction. It will be executed when the player examines a spot on the upper screen that is not defined by a Point Instruction.
 
 Example:
 ```
@@ -30,20 +32,20 @@ Example:
 ``` 
 
 ## Point
-This is the main part of an examination. A point is a spot on the upper screen the player has to click on to invoke some action. The Point instruction is built using the following scheme:
+This is the main part of an examination. A point is a spot on the upper screen on which the player has to click in order to invoke some action. The Point Instruction is built using the following scheme:
 ```
 Point:{X|Y|OFFSET|FIRST DISCOVER|SECOND DISCOVER};
 ```
 
 ### Parameters
 
-|Name|Type|Description|
+|Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
-|X|Number|The position on the x-axis.|
-|Y|Number|The position on the y-axis.|
-|OFFSET|Number|The amount of pixels the cursor is allowed to be off from the defined position.|
-|FIRST DISCOVER|Regular Instruction|Gets executed the first time this point was discovered.|
-|SECOND DISCOVER|Regular Instruction|Gets executed every subsequent time this point was clicked on.|
+|X|Number|The position of the point on the x-axis.|✓|-|
+|Y|Number|The position of the point on the y-axis.|✓|-|
+|OFFSET|Number|The offset around the X and Y positions (by how much the x and y positions of the clicked spot can differ from `X` and `Y` respectively while still being considered part of the point).|✓|-|
+|FIRST DISCOVER|Regular Instruction|Gets executed the first time that the player clicks on this point.|✓|-|
+|SECOND DISCOVER|Regular Instruction|Gets executed every subsequent time that the player clicks on this point.|✓|-|
 
 Example:
 ```
@@ -53,4 +55,4 @@ Example:
 There can be as many Point Instructions as you want.
 
 ---
-[Back to overview](index.md)
+[Back to overview](index.md) • [Back to Investigations page](InvestigationC.md)

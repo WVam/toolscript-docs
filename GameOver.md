@@ -2,24 +2,25 @@
 
 ---
 # GameOver
+
 ---
 ### Description
-Requests the game to end.
+Requests that the game end.
 
 ### Parameters
-This instruction has no parameters.
+This Instruction has no parameters.
 
 ### Examples:
-#### Example #1: Request a game over.
+#### Example #1: Request a Game Over.
 ```
 1:  GameOver;
 ```
 
 ### Remarks:
-If this instruction is called, the game doesn't end immediately. Usually, the engine waits for a dialog to finish first.
-For example, if this instruction is called during a press frame of [Cross Examinations](CrossExamC.md), then the game will end **after** the press frame has finished executing.
+If this Instruction is called, the game will not end immediately. Usually, the engine will wait for a dialog to finish first.
+For example, if this Instruction is called during the Frame of a [Cross-examination](CrossExamC.md) that plays after pressing the "Press" button, then the game will end **after** the Frame has finished executing.
 
-This instruction will execute the GameOver frame, if it exists.
+This Instruction will execute the GameOver Frame, if it exists.
 
 ---
 [Back to overview](index.md)

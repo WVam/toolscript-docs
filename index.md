@@ -1,9 +1,9 @@
 ![](Images/Banner.png)
 
 Welcome to the documentation of the Ace Attorney Casing Tool Script, or AACS, or ToolScript, or "the code" as some even may call it. 
-Either way, AACS isn't overly complicated but it's good to read up on the basic idea first. Plus, you don't wanna have to remember every single instruction, so use this as a reference.  
+Either way, AACS isn't overly complicated but it's good to read up on the basic idea first. Plus, you don't wanna have to remember every single Instruction, so use this as a reference.  
 
-Bellow you will find a list of all instructions but it's recommended that you read up on the [Basics](Basics.md) first.
+Below you will find a list of all the Instructions but it's recommended that you read up on the [Basics](Basics.md) first.
 
 ## Structures:
 - [Basics](Basics.md)
@@ -46,7 +46,6 @@ Bellow you will find a list of all instructions but it's recommended that you re
 ### Camera
 - [PanCamera](PanCamera.md)
 - [Shake](Shake.md)
-- [MoveCharacter](MoveCharacter.md)
   
 ### Gameplay
 - Cross Examination ([Play](PlayCrossExam.md)) ([Container](CrossExamC.md))
@@ -113,7 +112,7 @@ Bellow you will find a list of all instructions but it's recommended that you re
 - [RevealMove](RevealMove.md)
 - [RevealTopic](RevealTopic.md)
 
-### Psyche Lock
+### Psyche-Lock
 - [PsycheLock](PsycheLock.md)
 - [BreakLock](BreakLock.md)
 - [PsycheDamage](PsycheDamage.md)

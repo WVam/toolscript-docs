@@ -2,7 +2,9 @@
 
 ---
 # DisplayPopupWait (DPW)
+
 ---
+
 ### Description
 Displays a popup animation and waits until the animation has finished playing.
 
@@ -23,7 +25,7 @@ Displays a popup animation and waits until the animation has finished playing.
 
 ### Remarks:
 The popup will not vanish until [LoadLocation](LoadLocation.md) has been called.  
-This Instruction does not support looping, for obvious reasons. If you need a looping popup, use [DisplayPopup](DisplayPopup.md) instead.
+This Instruction does not support looping. That's because, if the popup *did* loop, then it would last forever and as a consequence this Instruction would make you wait forever. If you need a looping popup, use [DisplayPopup](DisplayPopup.md) instead.
 
 ---
 [Back to overview](index.md)

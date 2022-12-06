@@ -6,7 +6,7 @@
 ---
 
 ### Description
-Displays the health bar in the top right corner.
+Displays the health bar.
 
 ### Parameters
 

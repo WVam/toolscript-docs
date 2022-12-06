@@ -72,7 +72,9 @@ Below you will find a list of all the Instructions but it's recommended that you
 - [DisplayEvidence](DisplayEvidence.md)
 - [PsycheDisplayHealth](PsycheDisplayHealth.md)
 - [DisplayHealth](DisplayHealth.md)
+- [DisplayBadgeHealth](DisplayBadgeHealth.md)
 - [DisplayPopup](DisplayPopup.md)
+- [ClearPopup](ClearPopup.md)
 - [DisplayPopupWait](DisplayPopupWait.md)
 - [DisplayText](DisplayText.md)
   
@@ -80,6 +82,7 @@ Below you will find a list of all the Instructions but it's recommended that you
 - [HideEvidence](HideEvidence.md)
 - [PsycheHideHealth](PsycheHideHealth.md)
 - [HideHealth](HideHealth.md)
+- [HideBadgeHealth](HideBadgeHealth.md)
 - [HideRecord](HideRecord.md)
 - [HideProfile](HideProfile.md)
 
@@ -119,7 +122,11 @@ Below you will find a list of all the Instructions but it's recommended that you
 ### Court proceedings
 - [DecreaseHealth](DecreaseHealth.md)
 - [IncreaseHealth](IncreaseHealth.md)
+- [DestroyBadges](DestroyBadges.md)
+- [AddBadges](AddBadges.md)
 - [FlashHealth](FlashHealth.md)
+- [FlashBadgeHealth](FlashBadgeHealth.md)
+- [StopBadgeHealthFlash](StopBadgeHealthFlash.md)
 - [PickEvidence](PickEvidence.md)
 - [GameOver](GameOver.md)
 

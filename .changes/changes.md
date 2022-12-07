@@ -151,3 +151,6 @@ When *Nothing significant* is written under a document changelog, it means that 
 
 ## HideHealth.md
 *Nothing significant*
+
+## HideMoodInterface.md
+*Nothing significant*
